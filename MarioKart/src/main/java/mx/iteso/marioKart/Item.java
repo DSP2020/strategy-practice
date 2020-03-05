@@ -1,46 +1,28 @@
 package mx.iteso.marioKart;
 
 public abstract class Item {
-    private double initialVelocity;
-    private double finalVelocity;
-    private double initialTime;
-    private double finalTime;
-    private int duration;
 
-    public void setInitialVelocity(double vi){
-        this.initialVelocity = vi;
+    public Item(double v,int time){
+        this.velocity = v;//En kilómetros
+        this.duration = time;//En segundos
     }
 
-    public void setFinalVelocity(double vf){
-        this.finalVelocity = vf;
-    }
+    private double velocity;
+    private int duration;//In seconds
 
-    public void setInitialTime(double ti){
-        this.initialTime = ti;
+    public void setVelocity(double v){
+        this.velocity = v;
     }
-
-    public void setFinalTime(double tf){
-        this.finalTime = tf;
-    }
-
     public void setDuration(int time){
-
+        this.duration = time;
     }
 
-    public double getInitialVelocity(){
-        return this.initialVelocity;
+    public double getVelocity(){
+        return this.velocity;
     }
 
-    public double getFinalVelocity(){
-        return this.finalVelocity;
-    }
-
-    public double getInitialTime(){
-        return this.initialTime;
-    }
-
-    public double getFinalTime(){
-        return this.finalTime;
+    public double getDuration(){
+        return this.duration;
     }
 
 }
