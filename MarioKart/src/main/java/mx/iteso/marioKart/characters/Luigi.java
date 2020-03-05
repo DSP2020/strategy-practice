@@ -29,13 +29,4 @@ public class Luigi extends MarioKartCharacter {
         this.currentVelocity = LuigiVelocity;
     }
 
-    public static void main(String[] args){
-        MarioKartCharacter Luigi = new Luigi();
-        Item thunder = new Thunder();
-        Acceleration positive = new PositiveAcceleration();
-        Luigi.setAceleration(positive);
-        Luigi.changeAcceleration(Luigi.getCurrentVelocity(),thunder);
-        System.out.println("Continue it's way, current velocity "+Luigi.getCurrentVelocity()+"m/s");
-
-    }
 }

@@ -28,14 +28,4 @@ public class Mario extends MarioKartCharacter {
         this.currentVelocity = MarioVelocity;
     }
 
-    public static void main(String[] args){
-        MarioKartCharacter Mario = new Mario();
-        Item star = new Star();
-        Acceleration media = new MediaAcceleration();
-        Mario.setAceleration(media);
-        Mario.changeAcceleration(Mario.getCurrentVelocity(),star);
-        System.out.println("Continue it's way, current velocity m/s"+Mario.getCurrentVelocity());
-
-    }
-
 }

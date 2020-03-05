@@ -29,12 +29,4 @@ public class Toad extends MarioKartCharacter {
         this.currentVelocity = ToadVelocity;
     }
 
-    public static void main(String[] args){
-        MarioKartCharacter Toad = new Toad();
-        Item rocket = new Rocket();
-        Acceleration positive = new PositiveAcceleration();
-        Toad.setAceleration(positive);
-        Toad.changeAcceleration(Toad.getCurrentVelocity(),rocket);
-        System.out.println("Continue it's way, current velocity "+Toad.getCurrentVelocity() +" m/s");
-    }
 }
