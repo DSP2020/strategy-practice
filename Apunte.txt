@@ -1,0 +1,24 @@
+Interfaz Aceleración
+
+Clase Abstracta item(EfectAcel,TiemAcel,saltLim)
+
+Clase Abstracta Mario Caracter(AcelUnic)
+
+Main clase Carrera
+
+Clase Current item
+
+
+3 Personajes (Aceleración,)
+
+3 Tipos de aceleración(ValorN,ValorL)
+
+3 items: Moneda,Rayo,Hongo
+
+mx.iteso.MaKa
+	MarioKartCharacter
+	item
+
+	.MaKa.behaviors
+	.MaKa.behaviors.impl
+	.MaKa.items
