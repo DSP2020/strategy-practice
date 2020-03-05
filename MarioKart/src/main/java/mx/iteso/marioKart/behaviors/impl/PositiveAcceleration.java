@@ -7,8 +7,12 @@ public class PositiveAcceleration implements Acceleration {
     public void acceleration(double currentVelocity, Item item) {
         double incrementVelocity = currentVelocity;
         for(int i=0; i<item.getDuration(); i++){
+            if (incrementVelocity <= 0){
+                System.out.println("Stop");
+                break;
+            }
             System.out.println("go fast!");
-            System.out.println("new velocity "+incrementVelocity);
+            System.out.println("new velocity "+incrementVelocity+" m/s");
             incrementVelocity += item.getVelocity();
         }
     }

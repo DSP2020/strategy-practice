@@ -3,6 +3,7 @@ package mx.iteso.marioKart.characters;
 import mx.iteso.marioKart.Item;
 import mx.iteso.marioKart.MarioKartCharacter;
 import mx.iteso.marioKart.behaviors.impl.MediaAcceleration;
+import mx.iteso.marioKart.behaviorsInterfaces.Acceleration;
 import mx.iteso.marioKart.items.Star;
 
 public class Mario extends MarioKartCharacter {
@@ -28,13 +29,12 @@ public class Mario extends MarioKartCharacter {
     }
 
     public static void main(String[] args){
-
-        Mario Mario = new Mario();
-        Star star = new Star();
-        MediaAcceleration media = new MediaAcceleration();
+        MarioKartCharacter Mario = new Mario();
+        Item star = new Star();
+        Acceleration media = new MediaAcceleration();
         Mario.setAceleration(media);
-
         Mario.changeAcceleration(Mario.getCurrentVelocity(),star);
+        System.out.println("Continue it's way, current velocity m/s"+Mario.getCurrentVelocity());
 
     }
 

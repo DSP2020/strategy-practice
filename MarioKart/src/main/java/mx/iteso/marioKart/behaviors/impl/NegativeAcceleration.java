@@ -8,11 +8,11 @@ public class NegativeAcceleration implements Acceleration {
         double incrementVelocity = currentVelocity;
         for(int i=0; i<item.getDuration(); i++){
             System.out.println("go slow");
-            if (incrementVelocity == 0){
+            if (incrementVelocity <= 0){
                 System.out.println("Stop");
                 break;
             }
-            System.out.println("new velocity "+incrementVelocity);
+            System.out.println("new velocity "+incrementVelocity+ " m/s");
             incrementVelocity += item.getVelocity();
         }
     }

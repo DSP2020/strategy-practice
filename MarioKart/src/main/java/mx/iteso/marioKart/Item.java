@@ -3,7 +3,7 @@ package mx.iteso.marioKart;
 public abstract class Item {
 
     public Item(double v,int time){
-        this.velocity = v;//En kilómetros
+        this.velocity = v;//En metros
         this.duration = time;//En segundos
     }
 

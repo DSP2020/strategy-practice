@@ -18,4 +18,13 @@ public abstract class MarioKartCharacter{
         return this.acceleration;
     }
 
+    public double getCurrentVelocity(){
+        return this.velocity;
+    }
+
+    public void changeAcceleration(double currentVelocity, Item item){
+        getAcceleration().acceleration(currentVelocity,item);
+        this.velocity = currentVelocity;
+    }
+
 }
