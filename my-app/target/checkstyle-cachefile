@@ -1,0 +1,8 @@
+#Thu Mar 05 22:37:37 CST 2020
+configuration*?=1744A4DDAA01CE256F52B410BFD675F8A773CAB5
+module-resource*?\:checkstyle-xpath-suppressions.xml=FB4DFF7984E870BA9D25429099F05FDD5F9DA1E3
+/home/carlo/Documentos/8vo\ semestre/Dise\u00F1o\ de\ software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/Acceleration.java=1583469417041
+module-resource*?\:checkstyle-suppressions.xml=6DA3184CB4FAEE0493C933EFD7B53E236C4EE94C
+/home/carlo/Documentos/8vo\ semestre/Dise\u00F1o\ de\ software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastestAcceleration.java=1583469422909
+/home/carlo/Documentos/8vo\ semestre/Dise\u00F1o\ de\ software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/SlowAcceleration.java=1583469412837
+/home/carlo/Documentos/8vo\ semestre/Dise\u00F1o\ de\ software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Mario.java=1583469433681

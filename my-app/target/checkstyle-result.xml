@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/DonkeyKong.java">
+<error line="1" severity="error" message="Falta el archivo package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Character.java">
+<error line="30" column="8" severity="error" message="Etiqueta @param no usada en &apos;acceleration&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="32" column="36" severity="error" message="El parámetro newAcceleration debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="49" severity="error" message="Se esperaba la etiqueta @param para &apos;newAcceleration&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="53" column="8" severity="error" message="Etiqueta @param no usada en &apos;currentItem&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="55" column="32" severity="error" message="El parámetro newCurrentItem debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" column="37" severity="error" message="Se esperaba la etiqueta @param para &apos;newCurrentItem&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Mario.java">
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/ package-info.java">
+<error line="1" severity="error" message="El fichero no termina con un retorno de carro." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/App.java">
+<error line="1" severity="error" message="Falta el archivo package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="10" column="1" severity="error" message="Clases de servicios públicos no deben tener un constructor público o por defecto." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="11" column="1" severity="error" message="&apos;{&apos; en la columna 1 debería estar en la línea anterior." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="12" column="5" severity="error" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="12" column="28" severity="error" message="&apos;(&apos; está seguido de espacios en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="12" column="30" severity="error" message="El parámetro args debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="12" column="44" severity="error" message="&apos;)&apos; está precedido de espacio en blanco." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="13" column="5" severity="error" message="&apos;{&apos; en la columna 5 debería estar en la línea anterior." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/ package-info.java">
+<error line="1" severity="error" message="El fichero no termina con un retorno de carro." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastAcceleration.java">
+<error line="1" severity="error" message="Falta el archivo package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastestAcceleration.java">
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/SlowAcceleration.java">
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/ package-info.java">
+<error line="1" severity="error" message="El fichero no termina con un retorno de carro." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/ package-info.java">
+<error line="1" severity="error" message="El fichero no termina con un retorno de carro." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Falta el archivo package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="10" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/Acceleration.java">
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Mushroom.java">
+<error line="1" severity="error" message="Falta el archivo package-info.java." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Item.java">
+<error line="12" column="18" severity="error" message="La variable &apos;acceleration&apos; debe ser privada y tener métodos de acceso." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="24" column="8" severity="error" message="Etiqueta @param no usada en &apos;acceleration&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="26" column="36" severity="error" message="El parámetro newAcceleration debería ser final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="26" column="49" severity="error" message="Se esperaba la etiqueta @param para &apos;newAcceleration&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/carlo/Documentos/8vo semestre/Diseño de software/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/ package-info.java">
+<error line="1" severity="error" message="El fichero no termina con un retorno de carro." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>
