@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481e44c4-f5d9-424b-9901-a8d44aedbf4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/MariokartCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/iAcceleration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/Fast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/SuperFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/VeryFast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/characters/Luigi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/characters/Mario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/items/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/items/Star.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/characters/Peach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/iAcceleration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/iAcceleration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/Fast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/Fast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/SuperFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/SuperFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/VeryFast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/behaviors/impl/VeryFast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/characters/Luigi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/characters/Luigi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/characters/Mario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/characters/Mario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/items/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/mariokart/items/Mushroom.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +60,17 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="320" y="128" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1583416633198" />
-    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1583419963546">
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1583466531214">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1583419963546" />
+    <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1583466531214" />
     <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583416702218">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="217" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1583416702218" />
+    <state x="427" y="87" key="refactoring.ChangeSignatureDialog" timestamp="1583466852579">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="427" y="87" key="refactoring.ChangeSignatureDialog/0.23.1440.877@0.23.1440.877" timestamp="1583466852579" />
   </component>
 </project>

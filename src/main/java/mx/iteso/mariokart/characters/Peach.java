@@ -4,7 +4,7 @@ import mx.iteso.mariokart.MariokartCharacter;
 import mx.iteso.mariokart.behaviors.iAcceleration;
 import mx.iteso.mariokart.behaviors.impl.Fast;
 
-public class Luigi extends MariokartCharacter {
+public class Peach extends MariokartCharacter {
 
     iAcceleration acLuigi = new Fast();
 }

@@ -1,4 +1,11 @@
 package mx.iteso.mariokart.behaviors.impl;
 
-public class VeryFast {
+import mx.iteso.mariokart.behaviors.iAcceleration;
+
+public class VeryFast implements iAcceleration {
+
+    @Override
+    public String setAcceleration() {
+        return "Velocity is very fast";
+    }
 }
