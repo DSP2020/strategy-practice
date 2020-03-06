@@ -9,8 +9,11 @@ import mx.iteso.mariokart.MarioKartCharacter;
 import mx.iteso.mariokart.behaviors.Acceleration;
 import mx.iteso.mariokart.behaviors.Drifting;
 import mx.iteso.mariokart.behaviors.behaviors.impl.Fast;
+import mx.iteso.mariokart.behaviors.behaviors.impl.Limited;
+import mx.iteso.mariokart.behaviors.behaviors.impl.Normal;
 import mx.iteso.mariokart.behaviors.behaviors.impl.VeryFast;
 import mx.iteso.mariokart.behaviors.behaviors.impl.VerySlow;
+import mx.iteso.mariokart.behaviors.behaviors.impl.Wide;
 
 /**
  *
@@ -18,7 +21,7 @@ import mx.iteso.mariokart.behaviors.behaviors.impl.VerySlow;
  */
 public class Yoshi extends MarioKartCharacter{
     Acceleration acceleration  = new Fast();
-    Drifting drifting;
+    Drifting drifting = new Normal();
     Item item;
     int speed = 100;
     String name = "Yoshi";
@@ -27,6 +30,7 @@ public class Yoshi extends MarioKartCharacter{
     public void start(){
         System.out.println("Yoshi moving");
         this.acceleration.doAcceleration();
+        this.drifting.doDrifting();
     }
     @Override
     public void alterAcceleration(Item itemParam){
@@ -50,8 +54,23 @@ public class Yoshi extends MarioKartCharacter{
     }
     
     @Override
-    public void alterDrifting(){
-
+    public void alterDrifting(Item itemParam){
+        if(itemParam.getName() == "Mushroom"){
+            Drifting dt = new Wide();
+            dt.doDrifting();
+            System.out.println("End ITEM");
+            this.drifting.doDrifting();
+        }else if (itemParam.getName() == "Lightning"){
+            Drifting dt = new Limited();
+            dt.doDrifting();
+            System.out.println("End ITEM");
+            this.drifting.doDrifting();           
+        }else if(itemParam.getName() == "BulletBill"){
+            Drifting dt = new Limited();
+            dt.doDrifting();
+            System.out.println("End ITEM");
+            this.drifting.doDrifting();           
+        }
     }
     
     

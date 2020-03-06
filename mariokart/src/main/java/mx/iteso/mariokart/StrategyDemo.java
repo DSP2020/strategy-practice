@@ -133,7 +133,6 @@ public class StrategyDemo {
         System.out.println("ITEM: " + lightning.getName());
         mario.alterAcceleration(lightning);
         
-        
         yoshi.start();
         System.out.println("ITEM: " + mushroom.getName());
         yoshi.alterAcceleration(mushroom);

@@ -21,7 +21,7 @@ public abstract class MarioKartCharacter {
     String name;
     
     public abstract void alterAcceleration(Item itemParam);
-    public abstract void alterDrifting();
+    public abstract void alterDrifting(Item itemParam);
     
     
 }
