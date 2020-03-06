@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d3b7f6-56ac-4a6f-8199-74db7ba4f109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Luigi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Luigi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Mario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Mario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Toad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Toad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Luigi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Luigi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Mario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Mario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Toad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Toad.class" afterDir="false" />
-    </list>
+    <list default="true" id="40d3b7f6-56ac-4a6f-8199-74db7ba4f109" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
