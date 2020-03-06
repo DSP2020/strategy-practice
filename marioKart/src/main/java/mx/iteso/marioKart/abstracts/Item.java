@@ -1,31 +1,38 @@
 package mx.iteso.marioKart.abstracts;
 
-abstract class Item {
-    private int efectAcel;
-    private int timeAcel;
-    private boolean overtakeLimit;
+public abstract class Item {
+    protected int itemSelector;
+    protected int efectAccelerationItem;
+    protected int timeEfectItem;
+    protected boolean exceedLimitItem;
+    private  boolean isActiveItem;
 
-    public boolean isOvertakeLimit() {
-        return overtakeLimit;
+    public abstract void setItemSelector();
+    public abstract void setEfectAcceleration();
+    public abstract void setTimeEfect();
+    public abstract void setExceedLimit();
+
+    public int getItemSelector() {
+        return itemSelector;
     }
 
-    public void setOvertakeLimit(boolean overtakeLimit) {
-        this.overtakeLimit = overtakeLimit;
+    public int getEfectAccelerationItem() {
+        return efectAccelerationItem;
     }
 
-    public int getEfectAcel() {
-        return efectAcel;
+    public int getTimeEfectItem() {
+        return timeEfectItem;
     }
 
-    public void setEfectAcel(int efectAcel) {
-        this.efectAcel = efectAcel;
+    public boolean isExceedLimitItem() {
+        return exceedLimitItem;
     }
 
-    public int getTimeAcel() {
-        return timeAcel;
+    public boolean isActiveItem() {
+        return isActiveItem;
     }
 
-    public void setTimeAcel(int timeAcel) {
-        this.timeAcel = timeAcel;
+    public void setActiveItem(boolean activeItem) {
+        isActiveItem = activeItem;
     }
 }
