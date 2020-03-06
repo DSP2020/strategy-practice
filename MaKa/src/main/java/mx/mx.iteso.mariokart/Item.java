@@ -9,8 +9,8 @@ abstract public class Item {
         return saltLim;
     }
 
-    public void setSaltLim(boolean saltLim) {
-        this.saltLim = saltLim;
+    public  void setSaltLim(boolean nsaltLim) {
+        this.saltLim = nsaltLim;
     }
 
 
@@ -18,17 +18,13 @@ abstract public class Item {
         return efectAcel;
     }
 
-    public void setEfectAcel(int nefectAcel) {
-        this.efectAcel = nefectAcel;
-    }
+    public abstract void setEfectAcel(int nefectAcel);
 
     public int getTiemAcel() {
         return tiemAcel;
     }
 
-    public void setTiemAcel(int ntiemAcel) {
-        this.tiemAcel = ntiemAcel;
-    }
+    public abstract void setTiemAcel(int ntiemAcel);
 
 
 }

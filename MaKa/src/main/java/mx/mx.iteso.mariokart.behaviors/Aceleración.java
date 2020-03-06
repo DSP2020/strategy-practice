@@ -2,7 +2,7 @@ package mx.mx.iteso.mariokart.behaviors;
 
 public interface Aceleración {
     /*
-    *En esta función define si esta derretido.
+    *En esta función se asigna un adjetivo a la velocidad
 
      * @author: Frank De La Torre
 
@@ -13,5 +13,5 @@ public interface Aceleración {
      * @return Regesa el String de la aceleración (1=Lento,2=Normal...)
 
     * */
-    String Acelerar(int curracel);
+    String AceleNombre(int curracel);
 }
