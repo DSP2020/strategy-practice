@@ -27,9 +27,9 @@ public class Character {
 
     /**
      * Set the acceleration of the character.
-     * @param acceleration the new acceleration
+     * @param newAcceleration the new acceleration
      */
-    protected void setAcceleration(Acceleration newAcceleration) {
+    protected void setAcceleration(final Acceleration newAcceleration) {
         this.acceleration = newAcceleration;
     }
 
@@ -50,9 +50,9 @@ public class Character {
 
     /**
      * Set the current item.
-     * @param currentItem the new item to be assigned.
+     * @param newCurrentItem the new item to be assigned.
      */
-    public void setCurrentItem(Item newCurrentItem) {
+    public void setCurrentItem(final Item newCurrentItem) {
         if (this.currentItem == null) {
             this.currentItem = newCurrentItem;
         }

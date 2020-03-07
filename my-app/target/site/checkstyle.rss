@@ -25,8 +25,8 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 15,
-             Errors: 34,
+      <title>File: 1,
+             Errors: 0,
              Warnings: 0,
              Infos: 0
       </title>
@@ -46,118 +46,6 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.characters. package-info.java">mx/iteso/mariokart/characters/ package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.characters.Mario.java">mx/iteso/mariokart/characters/Mario.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.behaviors.impl.FastAcceleration.java">mx/iteso/mariokart/behaviors/impl/FastAcceleration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.items.Mushroom.java">mx/iteso/mariokart/items/Mushroom.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.items. package-info.java">mx/iteso/mariokart/items/ package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart. package-info.java">mx/iteso/mariokart/ package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.characters.DonkeyKong.java">mx/iteso/mariokart/characters/DonkeyKong.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.characters.Character.java">mx/iteso/mariokart/characters/Character.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  6
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.items.Item.java">mx/iteso/mariokart/items/Item.java</a>
                 </td>
                 <td>
@@ -167,91 +55,7 @@ under the License.
                   0
                 </td>
                 <td>
-                  4
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.behaviors.impl.SlowAcceleration.java">mx/iteso/mariokart/behaviors/impl/SlowAcceleration.java</a>
-                </td>
-                <td>
                   0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.behaviors.Acceleration.java">mx/iteso/mariokart/behaviors/Acceleration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.behaviors.impl.FastestAcceleration.java">mx/iteso/mariokart/behaviors/impl/FastestAcceleration.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.App.java">mx/iteso/mariokart/App.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.behaviors. package-info.java">mx/iteso/mariokart/behaviors/ package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.behaviors.impl. package-info.java">mx/iteso/mariokart/behaviors/impl/ package-info.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
                 </td>
               </tr>
                       </tbody>

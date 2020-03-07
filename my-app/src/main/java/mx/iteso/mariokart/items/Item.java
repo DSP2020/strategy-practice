@@ -9,7 +9,7 @@ public abstract class Item {
     /**
      * Acceleration when the item is executed.
      */
-    Acceleration acceleration;
+    private Acceleration acceleration;
 
     /**
      * Get the acceleration of the item.
@@ -21,9 +21,9 @@ public abstract class Item {
 
     /**
      * Set the acceleration of the item.
-     * @param acceleration behavior
+     * @param newAcceleration behavior
      */
-    protected void setAcceleration(Acceleration newAcceleration) {
+    protected void setAcceleration(final Acceleration newAcceleration) {
         this.acceleration = newAcceleration;
     }
 

@@ -5,5 +5,4 @@
  * @version 1.0
  */
 
- package mx.iteso.mariokart.characters;
- 
+package mx.iteso.mariokart.characters;

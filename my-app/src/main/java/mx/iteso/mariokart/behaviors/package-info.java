@@ -6,5 +6,4 @@
  * @version 1.0
  */
 
- package mx.iteso.mariokart.behaviors;
- 
+package mx.iteso.mariokart.behaviors;
