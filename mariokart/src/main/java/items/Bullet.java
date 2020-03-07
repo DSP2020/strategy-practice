@@ -1,11 +1,13 @@
 package items;
 
-public class Bullet extends Item {
+import accelerations.SuperFast;
+import characters.Character;
 
-    static int bulletTime = 10;
-    static int bulletaccmodifier = 5;
+public class Bullet extends Item {
+    static int bulletTime = 50;
+    static String bulletName = "bullet";
 
     public Bullet() {
-        super(bulletaccmodifier, bulletTime);
+        super(bulletTime, new SuperFast(), bulletName);
     }
 }

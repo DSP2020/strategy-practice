@@ -2,9 +2,11 @@ package characters;
 
 public class Yoshi extends Character {
     static String nameYoshi = "Yoshi";
-    static int sizeYoshi = 150;
+    static int strenghtYoshi = 150;
+    static int massYoshi = 60;
+    static int maxSpeedYoshi = 50;
 
     public Yoshi() {
-        super(sizeYoshi, nameYoshi);
+        super(strenghtYoshi, massYoshi, nameYoshi, maxSpeedYoshi);
     }
 }
