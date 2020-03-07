@@ -9,7 +9,7 @@ public abstract class Item {
     /**
      * Acceleration when the item is executed.
      */
-    private Acceleration acceleration;
+    protected Acceleration acceleration;
 
     /**
      * Get the acceleration of the item.
