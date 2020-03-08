@@ -6,6 +6,7 @@ package mx.iteso.mariokart.behaviors;
 public interface Acceleration {
     /**
      * Execute this behavior.
+     * @return the message of acceleration.
      */
     String accelerate();
 }

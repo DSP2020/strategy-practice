@@ -11,7 +11,7 @@ public abstract class Item {
     /**
      * Acceleration when the item is executed.
      */
-    protected Acceleration acceleration;
+    private Acceleration acceleration;
 
     /**
      * Get the acceleration of the item.
@@ -31,6 +31,7 @@ public abstract class Item {
 
     /**
      * Abstract method to execute the item.
+     * @return the list with the acceleration messages.
      */
     public abstract List<String> executeItem();
 }

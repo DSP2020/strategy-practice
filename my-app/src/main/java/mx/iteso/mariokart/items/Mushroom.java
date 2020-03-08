@@ -26,12 +26,13 @@ public class Mushroom extends Item {
 
     /**
      * Execute the mushroom item.
+     * @return the list with the acceleration messages.
      */
     @Override
     public List<String> executeItem() {
         ArrayList<String> itemMessage = new ArrayList<>(this.duration);
         for (int i = 0; i < this.duration; i++) {
-            itemMessage.set(i, acceleration.accelerate());
+            itemMessage.set(i, getAcceleration().accelerate());
         }
 
         return itemMessage;

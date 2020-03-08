@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2020</copyright>
     <item>
-      <title>File: 1,
+      <title>File: 4,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -47,6 +47,48 @@ under the License.
                           <tr>
                 <td>
                   <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.items.Item.java">mx/iteso/mariokart/items/Item.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.items.Mushroom.java">mx/iteso/mariokart/items/Mushroom.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.behaviors.Drift.java">mx/iteso/mariokart/behaviors/Drift.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.example.com/checkstyle.html#mx.iteso.mariokart.characters.Character.java">mx/iteso/mariokart/characters/Character.java</a>
                 </td>
                 <td>
                   0

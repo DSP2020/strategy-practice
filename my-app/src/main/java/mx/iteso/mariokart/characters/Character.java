@@ -43,6 +43,7 @@ public class Character {
 
     /**
      * Execute the behavior of accelerate.
+     * @return the message of the acceleration.
      */
     public String accelerate() {
         return acceleration.accelerate();
@@ -68,6 +69,7 @@ public class Character {
 
     /**
      * Execute the current item and set it to null.
+     * @return the list with the acceleration messages.
      */
     public List<String> executeItem() {
         if (this.currentItem != null) {

@@ -1,18 +1,21 @@
-#Sat Mar 07 15:01:21 CST 2020
+#Sun Mar 08 14:08:36 CST 2020
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastDrift.java=1583696803778
 configuration*?=437896F06261D65E0C3009569590583C0B4276A7
 /home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/package-info.java=1583614532847
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/Acceleration.java=1583613187607
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastestAcceleration.java=1583613187607
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/Acceleration.java=1583697848158
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastestAcceleration.java=1583697167906
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/Drift.java=1583698097298
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/SlowDrift.java=1583696866022
 /home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/App.java=1583614292373
 /home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/\ package-info.java=1583614478590
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Item.java=1583614867366
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Item.java=1583698051150
 /home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/package-info.java=1583614570005
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Mushroom.java=1583613187607
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Mushroom.java=1583698062642
 /home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/package-info.java=1583614604043
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Character.java=1583614793058
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Mario.java=1583613187607
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/DonkeyKong.java=1583613187607
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Character.java=1583697974914
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Mario.java=1583697090706
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/DonkeyKong.java=1583697056474
 /home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/package-info.java=1583614667023
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/SlowAcceleration.java=1583613187607
-/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastAcceleration.java=1583613187607
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/SlowAcceleration.java=1583697182662
+/home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/impl/FastAcceleration.java=1583697145962
 /home/carlo/Documentos/Octavo\ semestre/Dise\u00F1o\ de\ software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/package-info.java=1583614700805

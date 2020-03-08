@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.19">
+<file name="/home/carlo/Documentos/Octavo semestre/Diseño de software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/characters/Character.java">
+</file>
+<file name="/home/carlo/Documentos/Octavo semestre/Diseño de software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Mushroom.java">
+</file>
 <file name="/home/carlo/Documentos/Octavo semestre/Diseño de software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/items/Item.java">
+</file>
+<file name="/home/carlo/Documentos/Octavo semestre/Diseño de software/Codes/strategy-practice/my-app/src/main/java/mx/iteso/mariokart/behaviors/Drift.java">
 </file>
 </checkstyle>
