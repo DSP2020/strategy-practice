@@ -10,7 +10,7 @@ public class NormalAcceleration implements IAcceleration {
      * Prints Zoom Zom.
      */
     @Override
-    public void accelerate() {
-        System.out.println("Zoom Zoom");
+    public String accelerate() {
+        return "Zoom Zoom";
     }
 }

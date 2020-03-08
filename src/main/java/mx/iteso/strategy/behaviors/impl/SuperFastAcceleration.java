@@ -10,7 +10,7 @@ public class SuperFastAcceleration implements IAcceleration {
      * Prints Zoom Zoom Zoom Zoom.
      */
     @Override
-    public void accelerate() {
-        System.out.println("Zoom Zoom Zoom Zoom");
+    public String accelerate() {
+        return "Zoom Zoom Zoom Zoom";
     }
 }

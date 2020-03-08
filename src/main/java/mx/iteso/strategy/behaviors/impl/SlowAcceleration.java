@@ -10,7 +10,7 @@ public class SlowAcceleration implements IAcceleration {
      * Prints a Zoom.
      */
     @Override
-    public void accelerate() {
-        System.out.println("Zoom");
+    public String accelerate() {
+        return "Zoom";
     }
 }

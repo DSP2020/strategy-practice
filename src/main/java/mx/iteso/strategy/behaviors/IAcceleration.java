@@ -6,6 +6,7 @@ package mx.iteso.strategy.behaviors;
 public interface IAcceleration {
     /**
      * Abstract aceleration.
+     * @return The acceleration message.
      */
-    void accelerate();
+    String accelerate();
 }

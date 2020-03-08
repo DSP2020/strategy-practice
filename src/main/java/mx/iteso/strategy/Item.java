@@ -9,7 +9,7 @@ public abstract class Item {
     /**
      * Default duration value.
      */
-    private final int defualtDuration = 5;
+    private final int defualtDuration = 1;
     /**
      * The duration of the item.
      */

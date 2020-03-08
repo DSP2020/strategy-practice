@@ -11,7 +11,7 @@ public class Yoshi extends Character {
      * Prints a message.
      */
     @Override
-    public void drive() {
-        System.out.println("I'm Yosi");
+    public String drive() {
+        return "I'm Yoshi";
     }
 }

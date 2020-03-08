@@ -11,7 +11,7 @@ public class Mario extends Character {
      * Prints a message.
      */
     @Override
-    public void drive() {
-        System.out.println("I'm Mario");
+    public String drive() {
+        return "I'm Mario";
     }
 }

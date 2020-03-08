@@ -17,21 +17,24 @@ public abstract class Character {
 
     /**
      * Drives the character.
+     * @return The character's message.
      */
-    public abstract void drive();
+    public abstract String drive();
 
     /**
      * Accelertes the character.
+     * @return The acceleration message.
      */
-    public void accelerate() {
+    public String accelerate() {
         IAcceleration origiAcceleration = getAcceleration();
+        String accelerationMessage = "";
         if (item != null) {
-            item.getAcceleration().accelerate();
+            accelerationMessage = item.getAcceleration().accelerate();
         } else {
-            origiAcceleration.accelerate();
+            accelerationMessage = origiAcceleration.accelerate();
         }
         setAcceleration(origiAcceleration);
-
+        return accelerationMessage;
     }
 
     /**
@@ -68,19 +71,22 @@ public abstract class Character {
 
     /**
      * Uses the item and then sets it to null.
+     * @return The acceleration item message.
      */
-    public void useItem() {
+    public String useItem() {
         IAcceleration origiAcceleration = getAcceleration();
+        String accelerationMessage = "";
         if (item != null) {
             int currentTime = 0;
             int duration = item.getDuration();
             setAcceleration(item.getAcceleration());
             while (currentTime < duration) {
-                accelerate();
+                accelerationMessage += accelerate();
                 currentTime++;
             }
             item = null;
         }
         setAcceleration(origiAcceleration);
+        return accelerationMessage;
     }
 }

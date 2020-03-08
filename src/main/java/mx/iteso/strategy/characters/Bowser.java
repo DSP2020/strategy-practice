@@ -8,10 +8,10 @@ import mx.iteso.strategy.Character;
 public class Bowser extends Character {
 
     /**
-     * Prints a message.
+     * Returns a message.
      */
     @Override
-    public void drive() {
-        System.out.println("I'm Browser");
+    public String drive() {
+        return "I'm Bowser";
     }
 }
