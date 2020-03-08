@@ -5,7 +5,7 @@ import mx.iteso.strategy.Character;
 /**
  * Bowser character implementation.
  */
-public class Bowser extends Character{
+public class Bowser extends Character {
 
     /**
      * Prints a message.

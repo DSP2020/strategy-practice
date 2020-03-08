@@ -7,9 +7,7 @@ import mx.iteso.strategy.behaviors.impl.SuperFastAcceleration;
 /**
  * Mushroom class.
  */
-public class Mushroom extends Item{
-
-    
+public class Mushroom extends Item {
     /**
      * Increments the acceleration to SuperFastAcceleration.
      * @return The new acceleration.

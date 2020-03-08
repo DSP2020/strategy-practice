@@ -5,8 +5,7 @@ import mx.iteso.strategy.behaviors.IAcceleration;
 /**
  * A Slow Acceleration implementation.
  */
-public class SlowAcceleration implements IAcceleration{
-
+public class SlowAcceleration implements IAcceleration {
     /**
      * Prints a Zoom.
      */
@@ -14,6 +13,4 @@ public class SlowAcceleration implements IAcceleration{
     public void accelerate() {
         System.out.println("Zoom");
     }
-
-    
 }

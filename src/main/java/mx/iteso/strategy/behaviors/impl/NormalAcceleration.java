@@ -3,10 +3,9 @@ package mx.iteso.strategy.behaviors.impl;
 import mx.iteso.strategy.behaviors.IAcceleration;
 
 /**
- * A Normal Acceleration implementation
+ * A Normal Acceleration implementation.
  */
 public class NormalAcceleration implements IAcceleration {
-
     /**
      * Prints Zoom Zom.
      */
@@ -14,6 +13,4 @@ public class NormalAcceleration implements IAcceleration {
     public void accelerate() {
         System.out.println("Zoom Zoom");
     }
-
-    
 }

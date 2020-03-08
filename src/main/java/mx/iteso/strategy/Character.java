@@ -16,18 +16,18 @@ public abstract class Character {
     private Item item;
 
     /**
-     * Drives the character
+     * Drives the character.
      */
-    abstract public void drive();
+    public abstract void drive();
 
     /**
      * Accelertes the character.
      */
     public void accelerate() {
         IAcceleration origiAcceleration = getAcceleration();
-        if(item != null){
+        if (item != null) {
             item.getAcceleration().accelerate();
-        }else{
+        } else {
             origiAcceleration.accelerate();
         }
         setAcceleration(origiAcceleration);
@@ -36,16 +36,14 @@ public abstract class Character {
 
     /**
      * Sets the acceleration.
-     * 
      * @param a the acceleration to set.
      */
-    public void setAcceleration(IAcceleration a) {
+    public void setAcceleration(final IAcceleration a) {
         this.acceleration = a;
     }
 
     /**
      * Gets the acceleration.
-     * 
      * @return the acceleration.
      */
     public IAcceleration getAcceleration() {
@@ -54,16 +52,14 @@ public abstract class Character {
 
     /**
      * Sets the item.
-     * 
-     * @param item the item to set.
+     * @param i the item to set.
      */
-    public void setItem(Item i) {
+    public void setItem(final Item i) {
         this.item = i;
     }
 
     /**
      * Gets the item.
-     * 
      * @return the item.
      */
     public Item getItem() {

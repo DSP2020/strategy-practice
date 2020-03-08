@@ -7,27 +7,32 @@ import mx.iteso.strategy.behaviors.IAcceleration;
  */
 public abstract class Item {
     /**
-     * The duration of the item
+     * Default duration value.
      */
-    private int duration = 5;
+    private final int defualtDuration = 5;
+    /**
+     * The duration of the item.
+     */
+    private int duration = defualtDuration;
 
     /**
      * Gets an acceleration the acceleration.
      * @return The acceleration.
      */
-    abstract public IAcceleration getAcceleration();
-    
+    public abstract IAcceleration getAcceleration();
+
     /**
-     * @return the duration
+     * @return the duration.
      */
     public int getDuration() {
         return duration;
     }
+
     /**
      * Sets the item's duration.
-     * @param duration the duration to set.
+     * @param d the duration to set.
      */
-    public void setDuration(int duration) {
-        this.duration = duration;
+    public void setDuration(final int d) {
+        this.duration = d;
     }
 }

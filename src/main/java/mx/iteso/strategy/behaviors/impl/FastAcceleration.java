@@ -6,7 +6,6 @@ import mx.iteso.strategy.behaviors.IAcceleration;
  * A Fast Acceleration implementation.
  */
 public class FastAcceleration implements IAcceleration {
-
     /**
      * Prints Zoom Zoom Zoom.
      */
@@ -14,6 +13,4 @@ public class FastAcceleration implements IAcceleration {
     public void accelerate() {
         System.out.println("Zoom Zoom Zoom");
     }
-
-    
 }

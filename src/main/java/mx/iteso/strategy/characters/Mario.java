@@ -5,7 +5,7 @@ import mx.iteso.strategy.Character;
 /**
  * Mario character implementation.
  */
-public class Mario extends Character{
+public class Mario extends Character {
 
     /**
      * Prints a message.
