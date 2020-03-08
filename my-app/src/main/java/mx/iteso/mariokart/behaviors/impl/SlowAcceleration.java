@@ -10,7 +10,7 @@ public class SlowAcceleration implements Acceleration {
      * Execute the slow acceleration behavior.
      */
     @Override
-    public void accelerate() {
-        System.out.println("Broom");
+    public String accelerate() {
+        return "Broom";
     }
 }

@@ -10,7 +10,7 @@ public class FastAcceleration implements Acceleration {
      * Execute the fast acceleration behavior.
      */
     @Override
-    public void accelerate() {
-        System.out.println("Broom broom");
+    public String accelerate() {
+        return "Broom broom";
     }
 }

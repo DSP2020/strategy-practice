@@ -7,5 +7,5 @@ public interface Acceleration {
     /**
      * Execute this behavior.
      */
-    void accelerate();
+    String accelerate();
 }

@@ -10,7 +10,7 @@ public class FastestAcceleration implements Acceleration {
      * Execute the fastest acceleration behavior.
      */
     @Override
-    public void accelerate() {
-        System.out.println("Broom broom broom broom");
+    public String accelerate() {
+        return "Broom broom broom broom";
     }
 }

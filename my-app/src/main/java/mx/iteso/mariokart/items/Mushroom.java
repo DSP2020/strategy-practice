@@ -1,5 +1,8 @@
 package mx.iteso.mariokart.items;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import mx.iteso.mariokart.behaviors.Acceleration;
 import mx.iteso.mariokart.behaviors.impl.FastestAcceleration;
 
@@ -25,10 +28,13 @@ public class Mushroom extends Item {
      * Execute the mushroom item.
      */
     @Override
-    public void executeItem() {
+    public List<String> executeItem() {
+        ArrayList<String> itemMessage = new ArrayList<>(this.duration);
         for (int i = 0; i < this.duration; i++) {
-            acceleration.accelerate();
+            itemMessage.set(i, acceleration.accelerate());
         }
+
+        return itemMessage;
     }
 
     /**

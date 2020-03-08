@@ -1,5 +1,7 @@
 package mx.iteso.mariokart.items;
 
+import java.util.List;
+
 import mx.iteso.mariokart.behaviors.Acceleration;
 
 /**
@@ -30,5 +32,5 @@ public abstract class Item {
     /**
      * Abstract method to execute the item.
      */
-    public abstract void executeItem();
+    public abstract List<String> executeItem();
 }

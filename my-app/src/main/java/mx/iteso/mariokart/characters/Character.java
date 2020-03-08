@@ -1,6 +1,9 @@
 package mx.iteso.mariokart.characters;
 
+import java.util.List;
+
 import mx.iteso.mariokart.behaviors.Acceleration;
+import mx.iteso.mariokart.behaviors.Drift;
 import mx.iteso.mariokart.items.Item;
 
 /**
@@ -11,6 +14,11 @@ public class Character {
      * Acceleration for the character.
      */
     private Acceleration acceleration;
+
+    /**
+     * Drifting behavior for the character.
+     */
+    private Drift drift;
 
     /**
      * Current item of the character.
@@ -36,8 +44,8 @@ public class Character {
     /**
      * Execute the behavior of accelerate.
      */
-    public void accelerate() {
-        acceleration.accelerate();
+    public String accelerate() {
+        return acceleration.accelerate();
     }
 
     /**
@@ -61,11 +69,30 @@ public class Character {
     /**
      * Execute the current item and set it to null.
      */
-    public void executeItem() {
+    public List<String> executeItem() {
         if (this.currentItem != null) {
-            this.currentItem.executeItem();
+            List<String> itemMessage = this.currentItem.executeItem();
 
             this.setCurrentItem(null);
+            return itemMessage;
         }
+
+        return null;
+    }
+
+    /**
+     * Getter for the drift.
+     * @return the drift implementation of the character.
+     */
+    public Drift getDrift() {
+        return drift;
+    }
+
+    /**
+     * Setter fot the drift.
+     * @param newDrift interface.
+     */
+    public void setDrift(final Drift newDrift) {
+        this.drift = newDrift;
     }
 }
