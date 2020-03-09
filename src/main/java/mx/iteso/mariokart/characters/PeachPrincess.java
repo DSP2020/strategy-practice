@@ -5,5 +5,9 @@ import mx.iteso.mariokart.behaviors.Acceleration;
 import mx.iteso.mariokart.behaviors.impl.MediumAcceleration;
 
 public class PeachPrincess extends MarioKartCharacter {
-    Acceleration acceleration = new MediumAcceleration();
+    static Acceleration acceleration = new MediumAcceleration();
+
+    public PeachPrincess() {
+        super(acceleration);
+    }
 }

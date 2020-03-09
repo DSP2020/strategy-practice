@@ -5,5 +5,9 @@ import mx.iteso.mariokart.behaviors.Acceleration;
 import mx.iteso.mariokart.behaviors.impl.SlowAcceleration;
 
 public class Bowser extends MarioKartCharacter {
-    Acceleration acceleration = new SlowAcceleration();
+    static Acceleration acceleration = new SlowAcceleration();
+
+    public Bowser() {
+        super(acceleration);
+    }
 }
