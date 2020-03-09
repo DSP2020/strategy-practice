@@ -3,6 +3,7 @@ package com.strategy.practice.characters;
 import com.strategy.practice.Characters;
 import com.strategy.practice.Item;
 import com.strategy.practice.behaviors.Acceleration;
+import com.strategy.practice.behaviors.imp.ShortDrift;
 import com.strategy.practice.behaviors.imp.SlowAcceleration;
 
 public class Bowser extends Characters {
@@ -10,6 +11,7 @@ public class Bowser extends Characters {
     public Bowser() {
         super();
         setAccelerationType(new SlowAcceleration());
+        setDriftType(new ShortDrift());
     }
 
     @Override
@@ -24,5 +26,10 @@ public class Bowser extends Characters {
         String itemAcceleration = accelerate();
         setAccelerationType(originalAcceleration);
         return itemAcceleration;
+    }
+
+    @Override
+    public String drift() {
+        return getDriftType().drift();
     }
 }

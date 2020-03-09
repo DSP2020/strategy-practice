@@ -31,5 +31,9 @@ public class App
         System.out.println(mario.itemAcceleration());
         System.out.println(luigi.itemAcceleration());
         System.out.println(bowser.itemAcceleration());
+
+        System.out.println(mario.drift());
+        System.out.println(luigi.drift());
+        System.out.println(bowser.drift());
     }
 }
