@@ -97,4 +97,12 @@ public class Character {
     public void setDrift(final Drift newDrift) {
         this.drift = newDrift;
     }
+
+    /**
+     * Execute a drift.
+     * @return drift message
+     */
+     public String drift() {
+         return getDrift().drift();
+     }
 }

@@ -30,9 +30,9 @@ public class Mushroom extends Item {
      */
     @Override
     public List<String> executeItem() {
-        ArrayList<String> itemMessage = new ArrayList<>(this.duration);
+        ArrayList<String> itemMessage = new ArrayList<>();
         for (int i = 0; i < this.duration; i++) {
-            itemMessage.set(i, getAcceleration().accelerate());
+            itemMessage.add(getAcceleration().accelerate());
         }
 
         return itemMessage;
