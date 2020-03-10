@@ -1,7 +1,6 @@
 package com.strategy.practice.characters;
 
 import com.strategy.practice.Characters;
-import com.strategy.practice.Item;
 import com.strategy.practice.behaviors.Acceleration;
 import com.strategy.practice.behaviors.imp.ShortDrift;
 import com.strategy.practice.behaviors.imp.SlowAcceleration;
