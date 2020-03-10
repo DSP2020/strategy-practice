@@ -1,0 +1,17 @@
+com\mycompany\app\behaviors\impl\VerySlowAcceleration.class
+com\mycompany\app\items\Banana.class
+com\mycompany\app\behaviors\impl\NoDrift.class
+com\mycompany\app\behaviors\Drifting.class
+com\mycompany\app\characters\Character.class
+com\mycompany\app\characters\Bowser.class
+com\mycompany\app\behaviors\impl\SlowAcceleration.class
+com\mycompany\app\behaviors\impl\RegularAcceleration.class
+com\mycompany\app\items\LightningStrike.class
+com\mycompany\app\characters\Toad.class
+com\mycompany\app\items\Mushroom.class
+com\mycompany\app\behaviors\impl\FastAcceleration.class
+com\mycompany\app\behaviors\impl\VeryFastAcceleration.class
+com\mycompany\app\characters\Mario.class
+com\mycompany\app\items\Item.class
+com\mycompany\app\behaviors\impl\Drift.class
+com\mycompany\app\behaviors\Acceleration.class

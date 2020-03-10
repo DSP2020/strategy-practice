@@ -1,0 +1,17 @@
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\items\LightningStrike.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\items\Mushroom.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\characters\Bowser.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\characters\Mario.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\impl\Drift.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\items\Banana.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\items\Item.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\characters\Toad.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\impl\RegularAcceleration.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\impl\VeryFastAcceleration.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\impl\VerySlowAcceleration.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\impl\SlowAcceleration.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\Acceleration.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\Drifting.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\impl\FastAcceleration.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\behaviors\impl\NoDrift.java
+C:\Users\Cursos\Desktop\Diseño\strategy-practice\my-app\src\main\java\com\mycompany\app\characters\Character.java
