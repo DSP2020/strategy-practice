@@ -11,11 +11,21 @@ import com.strategy.practice.items.Star;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public final class App {
+
+    /**
+     * Constructor.
+     */
+    private App() {
+
+    }
+
+    /**
+     * Main de la app.
+     * @param args args.
+     */
+    public static void main(final String[] args) {
+        System.out.println("Hello World!");
         Mario mario = new Mario();
         Luigi luigi = new Luigi();
         Bowser bowser = new Bowser();
