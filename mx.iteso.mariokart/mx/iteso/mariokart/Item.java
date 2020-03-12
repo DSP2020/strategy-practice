@@ -1,5 +1,4 @@
-package mx.iteso.mariokart
-import mx.iteso.mariokart.behavior.Acceleration;
+package mx.iteso.mariokart;
 
 public abstract class Item {
 	private String name;
