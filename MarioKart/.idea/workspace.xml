@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d3b7f6-56ac-4a6f-8199-74db7ba4f109" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/BigDrift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/MediumDrift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/SmallDrift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviorsInterfaces/Drifting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviorsInterfaces/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/items/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/behaviors/impl/TestBigDrift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/behaviors/impl/TestMediaAcceleration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/behaviors/impl/TestMediumDrift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/behaviors/impl/TestNegativeAcceleration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/behaviors/impl/TestPositiveAcceleration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/behaviors/impl/TestSmallDrift.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/characters/TestLuigi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/characters/TestMario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mx/iteso/marioKart/characters/TestToad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/MarioKartCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/MarioKartCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/MediaAcceleration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/MediaAcceleration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/NegativeAcceleration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/NegativeAcceleration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/PositiveAcceleration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviors/impl/PositiveAcceleration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviorsInterfaces/Acceleration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/behaviorsInterfaces/Acceleration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Luigi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Luigi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Mario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Mario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Toad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/characters/Toad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/items/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/items/Rocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/items/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/items/Star.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/items/Thunder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/iteso/marioKart/items/Thunder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/MarioKartCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/MarioKartCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviors/impl/MediaAcceleration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviors/impl/MediaAcceleration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviors/impl/NegativeAcceleration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviors/impl/NegativeAcceleration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviors/impl/PositiveAcceleration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviors/impl/PositiveAcceleration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviorsInterfaces/Acceleration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/behaviorsInterfaces/Acceleration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Luigi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Luigi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Mario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Mario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Toad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/characters/Toad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/items/Rocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/items/Rocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/items/Star.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/items/Star.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/items/Thunder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mx/iteso/marioKart/items/Thunder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="40d3b7f6-56ac-4a6f-8199-74db7ba4f109" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,22 +140,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1583812962782" />
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1583813795494">
+    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1583992142699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583813795494" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1583813795494">
+    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583992142699" />
+    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1583992142698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583813795494" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1583813795494">
+    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583992142698" />
+    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1583992142698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583813795494" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1583813795494">
+    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583992142698" />
+    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1583992142698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583813795494" />
+    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583992142698" />
     <state x="209" y="115" key="new project wizard" timestamp="1583429327236">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
