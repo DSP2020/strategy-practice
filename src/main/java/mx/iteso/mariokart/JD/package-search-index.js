@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"mx.iteso.mariokart"},{"l":"mx.iteso.mariokart.behaviors"},{"l":"mx.iteso.mariokart.behaviors.impl"},{"l":"mx.iteso.mariokart.characters"},{"l":"mx.iteso.mariokart.items"},{"l":"mx.iteso.mariokart.main"}]

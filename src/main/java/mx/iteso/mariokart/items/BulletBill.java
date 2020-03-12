@@ -1,7 +1,11 @@
 package mx.iteso.mariokart.items;
 
+/**
+ * BulletBill class.
+ */
 public class BulletBill {
-    int timeDuration = 8;
-
-    
+    /**
+     * timeDuration var.
+     */
+    private int timeDuration;
 }

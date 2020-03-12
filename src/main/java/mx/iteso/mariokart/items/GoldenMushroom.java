@@ -1,5 +1,11 @@
 package mx.iteso.mariokart.items;
 
+/**
+ * GoldenMushroom Item.
+ */
 public class GoldenMushroom extends Item {
-    int timeDuration = 8;
+    /**
+     * timeDuration var.
+     */
+    private int timeDuration;
 }

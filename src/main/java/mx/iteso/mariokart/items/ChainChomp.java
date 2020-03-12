@@ -1,5 +1,11 @@
 package mx.iteso.mariokart.items;
 
+/**
+ * ChaimChomp class.
+ */
 public class ChainChomp {
-    int timeDuration = 8;
+    /**
+     * timeDuration var.
+     */
+    private int timeDuration;
 }

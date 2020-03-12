@@ -1,23 +1,47 @@
 package mx.iteso.mariokart.items;
 
+/**
+ * abstract class.
+ */
 abstract class Item {
-    int activeTime;
-    int levelAcceleration;
+    /**
+     * activeTime var.
+     */
+    private int activeTime;
+    /**
+     * levelAcceleration var.
+     */
+    private int levelAcceleration;
 
+    /**
+     *
+     * @return activeTime
+     */
     public int getActiveTime() {
         return activeTime;
     }
 
-    public void setActiveTime(int activeTime) {
-        this.activeTime = activeTime;
+    /**
+     *
+     * @param activeT var
+     */
+    public void setActiveTime(final int activeT) {
+        this.activeTime = activeT;
     }
 
+    /**
+     *
+     * @return levelAcceleration var
+     */
     public int getLevelAcceleration() {
         return levelAcceleration;
     }
 
-    public void setLevelAcceleration(int levelAcceleration) {
-        this.levelAcceleration = levelAcceleration;
+    /**
+     *
+     * @param levelA var
+     */
+    public void setLevelAcceleration(final int levelA) {
+        this.levelAcceleration = levelA;
     }
-
 }
