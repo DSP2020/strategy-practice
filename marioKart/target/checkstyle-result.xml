@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="C:\Desarrollo\DD\strategy-practice\marioKart\src\main\java\mx\iteso\marioKart\abstracts\Character.java">
+</file>
+<file name="C:\Desarrollo\DD\strategy-practice\marioKart\src\main\java\mx\iteso\marioKart\characters\Browser.java">
+</file>
+<file name="C:\Desarrollo\DD\strategy-practice\marioKart\src\main\java\mx\iteso\marioKart\characters\Mario.java">
+</file>
+<file name="C:\Desarrollo\DD\strategy-practice\marioKart\src\main\java\mx\iteso\marioKart\characters\Toad.java">
+</file>
+</checkstyle>

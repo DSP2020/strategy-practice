@@ -1,39 +1,90 @@
 package mx.iteso.marioKart.characters;
 
 import mx.iteso.marioKart.abstracts.Character;
-
+/**
+ *  Esta clase es de un personaje y extiende de la clase abstracta Character.
+ * @author: Juan Carlos Ortiz Pinto
+ * @version: 11/03/2020/1.1
+ */
 public class Browser extends Character {
+    /**
+     * Variable que le asigna un identificador.
+     */
     private final int idCharacter = 8;
+    /**
+     * Variable para asignar el tope de incremento.
+     */
     private final  int speedMax = 7;
+    /**
+     * Variable para asignar la acceleracion que ejerce.
+     */
     private final int acceleration = 1;
+    /**
+     * Variable para asignar el balance del corredor.
+     */
     private final int balance = 7;
+    /**
+     * Variable para asignar el peso.
+     */
     private final int weight = 9;
-    private boolean moving = false;
+    /**
+     * Variable para determinar el movimiento.
+     */
+    private boolean moving;
 
-    public void setCurrentAcceleration(int iCurrentAcceleration) {
-        this.currentAcceleration = iCurrentAcceleration;
-    }
-
+    /**
+     * Metodo para asignar el id del personaje.
+     */
     public void setCharacterSelector() {
-        this.characterSelector = idCharacter;
+        this.setCharacterSelector(idCharacter);
     }
 
+    /**
+     * Metodo para incrementar la acceleracion.
+     */
     public void speedUp() {
-        if(moving){
-            for (int i=0;i<this.speedMax;i++){
-                if(this.item.isActiveItem()){
-                    for(int j=0;j<this.item.getTimeEfectItem();j++){
-                        this.setCurrentAcceleration(this.getCurrentAcceleration()+this.item.getEfectAccelerationItem());
+        final int limitTimeDrifting = 3;
+        final int limitBalanceDrifting = 10;
+        if (moving) {
+            for (int i = 0; i < this.speedMax; i++) {
+                if (this.getItem().isActiveItem()) {
+                    for (int j = 0; j < this.getItem()
+                            .getTimeEfectItem(); j++) {
+                        this.setCurrentAcceleration(
+                                this.getCurrentAcceleration()
+                                        + this.getItem()
+                                        .getEfectAccelerationItem());
                     }
                 }
-                this.setCurrentAcceleration(this.getCurrentAcceleration()+i);
+                if (this.getiDrifting().isDrifting()) {
+                    this.setTimerDrifting(0);
+                    if (this.getiDrifting().isStable()) {
+                        System.out.println(
+                                this.getIfisDriftingStable(
+                                        this.balance, this.weight));
+                    } else if (this.getTimerDrifting() <= limitTimeDrifting) {
+                        int tempBalance =
+                                (this.balance < limitBalanceDrifting)
+                                        ? this.balance + 2 : this.balance;
+                        System.out.println(
+                                this.getIfisDriftingStable(
+                                        tempBalance, this.weight));
+                    }
+                    this.setTimerDrifting(this.getTimerDrifting() + 1);
+                }
+                this.setCurrentAcceleration(this.getCurrentAcceleration() + i);
+                System.out.println(this.getTypeAcceleration());
             }
-        }else{
+        } else {
             this.setCurrentAcceleration(0);
         }
     }
-
-    public void setStarMove(boolean isMoving) {
+    /**
+     * Metodo para asignar el inicio del movimiento.
+     * @param isMoving variable que asigna.
+     */
+    public void setStarMove(final boolean isMoving) {
         this.moving = isMoving;
     }
+
 }
