@@ -1,4 +1,4 @@
-package mx.iteso.behaviors.impl;
+package mx.iteso.behaviors.impl.acceleration;
 
 import mx.iteso.behaviors.Acceleration;
 

@@ -1,7 +1,7 @@
 package mx.iteso.items;
 
 import mx.iteso.behaviors.Acceleration;
-import mx.iteso.behaviors.impl.FastAcceleration;
+import mx.iteso.behaviors.impl.acceleration.FastAcceleration;
 
 import org.junit.Test;
 import org.junit.Before;

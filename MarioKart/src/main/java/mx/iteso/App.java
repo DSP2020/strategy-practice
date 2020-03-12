@@ -1,6 +1,6 @@
 package mx.iteso;
 
-import mx.iteso.behaviors.impl.NormalAcceleration;
+import mx.iteso.behaviors.impl.acceleration.NormalAcceleration;
 import mx.iteso.characters.Yoshi;
 import mx.iteso.items.Star;
 
@@ -20,5 +20,6 @@ public class App
         System.out.println(yoshi.accelerate());
         yoshi.useItem();
         System.out.println(yoshi.accelerate());
+        System.out.println(yoshi.drift());
     }
 }

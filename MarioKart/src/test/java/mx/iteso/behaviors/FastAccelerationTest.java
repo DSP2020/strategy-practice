@@ -1,6 +1,6 @@
 package mx.iteso.behaviors;
 
-import mx.iteso.behaviors.impl.FastAcceleration;
+import mx.iteso.behaviors.impl.acceleration.FastAcceleration;
 import org.junit.Test;
 import org.junit.Before;
 import static org.junit.Assert.*;
