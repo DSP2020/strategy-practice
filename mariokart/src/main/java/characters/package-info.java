@@ -1,0 +1,6 @@
+
+/**
+ * package characters.
+ */
+
+package characters;

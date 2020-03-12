@@ -2,98 +2,231 @@ package characters;
 
 import accelerations.Acceleration;
 import accelerations.Normal;
+import drift.Drift;
 import items.Item;
-
+/**
+ * Character!
+ */
 public abstract class Character {
+    /**
+     * mass!
+     */
     private int mass;
+    /**
+     * strength!
+     */
     private int strength;
+    /**
+     * name!
+     */
     private String name;
-    private int currentSpeed = 0;
-    private int currentMeters = 0;
+    /**
+     * currentSpeed!
+     */
+    private int currentSpeed;
+    /**
+     * currentMeters!
+     */
+    private int currentMeters;
+    /**
+     * item!
+     */
     private Item item;
+    /**
+     * acceleration!
+     */
     private Acceleration acceleration;
+    /**
+     * drift!
+     */
+    private Drift drift;
+    /**
+     * maxSpeed!
+     */
     private int maxSpeed;
-
-    public Character(int s, int m, String n, int ms){
+    /**
+     * constructor!
+     *@param s
+     * jajaja
+     *@param m
+     * jajaja
+     *@param n
+     * jajaja
+     *@param ms
+     * jajaja
+     *@param d
+     * jajaja
+     */
+    public Character(final int s,
+                     final int m,
+                     final String n,
+                     final int ms,
+                     final Drift d) {
         setStrength(s);
         setName(n);
         setMass(m);
         setItem(null);
         setMaxSpeed(ms);
         setAcceleration(new Normal());
+        setDrift(d);
+        setCurrentSpeed(0);
+        setCurrentMeters(0);
     }
-
-    public void setMaxSpeed(int ms) {
+    /**
+     * setMaxSpeed!
+     *@param ms
+     * jajaja
+     */
+    public void setMaxSpeed(final int ms) {
         this.maxSpeed = ms;
     }
-
-    public void setItem(Item i){
+    /**
+     * setItem!
+     *@param i
+     * jajaja
+     */
+    public void setItem(final Item i) {
         this.item = i;
     }
-
-    public void setCurrentSpeed(int c) {
+    /**
+     * setCurrentSpeed!
+     *@param c
+     * jajaja
+     */
+    public void setCurrentSpeed(final int c) {
         this.currentSpeed = c;
     }
-
-    public void setStrength(int s){
+    /**
+     * setStrength!
+     *@param s
+     * jajaja
+     */
+    public void setStrength(final int s) {
         this.strength = s;
     }
-
-    public void setName(String n){
+    /**
+     * setName!
+     *@param n
+     * jajaja
+     */
+    public void setName(final String n) {
         this.name = n;
     }
-
-    public void setMass(int m){
+    /**
+     * setMass!
+     *@param m
+     * jajaja
+     */
+    public void setMass(final int m) {
         this.mass = m;
     }
-
-    public void setAcceleration(Acceleration a){
+    /**
+     * setAcceleration!
+     *@param a
+     * jajaja
+     */
+    public void setAcceleration(final Acceleration a) {
         this.acceleration = a;
-        System.out.println( this.getName() + " changed to " + this.acceleration.getName());
+        System.out.println(this.getName()
+                + " changed to "
+                + this.acceleration.getName());
     }
-
-    public void setCurrentMeters(int cm) {
+    /**
+     * setCurrentMeters!
+     *@param cm
+     * jajaja
+     */
+    public void setCurrentMeters(final int cm) {
         this.currentMeters = cm;
     }
-
-    public int getStrength(){
+    /**
+     * setDrift!
+     *@param d
+     * jajaja
+     */
+    public void setDrift(final Drift d) {
+        this.drift = d;
+    }
+    /**
+     * getStrength!
+     *@return int
+     * jajaja
+     */
+    public int getStrength() {
         return this.strength;
     }
-
-    public String getName(){
+    /**
+     * getName!
+     *@return String
+     * jajaja
+     */
+    public String getName() {
         return  this.name;
     }
-
-    public int getMass(){
+    /**
+     * getMass!
+     *@return int
+     * jajaja
+     */
+    public int getMass() {
         return this.mass;
     }
-
+    /**
+     * getItem!
+     *@return Item
+     * jajaja
+     */
     public Item getItem() {
         return this.item;
     }
-
+    /**
+     * getCurrentSpeed!
+     *@return int
+     * jajaja
+     */
     public int getCurrentSpeed() {
         return this.currentSpeed;
     }
-
+    /**
+     * getMaxSpeed!
+     *@return int
+     * jajaja
+     */
     public int getMaxSpeed() {
         return this.maxSpeed;
     }
-
-    public Acceleration getAcceleration(){
+    /**
+     * getAcceleration!
+     *@return Acceleration
+     * jajaja
+     */
+    public Acceleration getAcceleration() {
         return this.acceleration;
     }
-
+    /**
+     * getCurrentMeters!
+     *@return int
+     * jajaja
+     */
     public int getCurrentMeters() {
         return this.currentMeters;
     }
-
-
-    public void move(){
+    /**
+     * getDrift!
+     *@return Drift
+     * jajaja
+     */
+    public Drift getDrift() {
+        return this.drift;
+    }
+    /**
+     * move!
+     */
+    public void move() {
         this.acceleration.accelerate(this);
         setCurrentMeters(
-                getCurrentMeters() +
-                        getCurrentSpeed()
+                getCurrentMeters()
+                        + getCurrentSpeed()
         );
     }
 }

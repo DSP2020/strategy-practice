@@ -1,12 +1,22 @@
 package items;
 
 import accelerations.Fast;
-
+/**
+ * Mushroom!
+ */
 public class Mushroom extends Item {
-    static int mushroomTime = 3;
-    static String mushroomName = "Mushroom";
-
+    /**
+     * TIME!
+     */
+    private static final int TIME = 3;
+    /**
+     * NAME!
+     */
+    private static final String NAME = "Mushroom";
+    /**
+     * constuctor!
+     */
     public Mushroom() {
-        super(mushroomTime, new Fast(), mushroomName);
+        super(TIME, new Fast(), NAME);
     }
 }

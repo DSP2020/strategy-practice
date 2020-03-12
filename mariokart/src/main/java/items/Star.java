@@ -1,12 +1,22 @@
 package items;
 
 import accelerations.Fast;
-
+/**
+ * Star!
+ */
 public class Star extends Item {
-    static int starTime = 10;
-    static String starName = "Star";
-
+    /**
+     * TIME!
+     */
+    private static final int TIME = 10;
+    /**
+     * NAME!
+     */
+    private static final String NAME = "Star";
+    /**
+     * constructor!
+     */
     public Star() {
-        super(starTime, new Fast(), starName);
+        super(TIME, new Fast(), NAME);
     }
 }

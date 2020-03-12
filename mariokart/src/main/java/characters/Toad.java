@@ -1,12 +1,46 @@
 package characters;
 
+import drift.Drift;
+import drift.FastDrifting;
+/**
+ * Toad!
+ *
+ */
 public class Toad extends Character {
-    static String nameToad = "Toad";
-    static int strenghtToad = 100;
-    static int massToad = 20;
-    static int maxSpeedToad = 42;
-
+    /**
+     * NAME!
+     *
+     */
+    private static final String NAME = "Toad";
+    /**
+     * STRENGTH!
+     *
+     */
+    private static final int STRENGTH = 100;
+    /**
+     * MASS!
+     *
+     */
+    private static final int MASS = 20;
+    /**
+     * MAXSPEED!
+     *
+     */
+    private static final int MAXSPEED = 42;
+    /**
+     * driftToad!
+     *
+     */
+    private static Drift driftToad = new FastDrifting();
+    /**
+     * constructor!
+     *
+     */
     public Toad() {
-        super(strenghtToad, massToad, nameToad, maxSpeedToad);
+        super(STRENGTH,
+                MASS,
+                NAME,
+                MAXSPEED,
+                driftToad);
     }
 }

@@ -1,0 +1,6 @@
+
+/**
+ * package accelerations.
+ */
+
+package accelerations;

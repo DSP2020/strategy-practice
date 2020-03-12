@@ -1,13 +1,26 @@
 package items;
 
 import accelerations.SuperFast;
-import characters.Character;
-
+/**
+ * BULLET!
+ *
+ */
 public class Bullet extends Item {
-    static int bulletTime = 50;
-    static String bulletName = "bullet";
-
+    /**
+     * TIME!
+     *
+     */
+    private static final int TIME = 5;
+    /**
+     * NAME!
+     *
+     */
+    private static final String NAME = "bullet";
+    /**
+     * constructor!
+     *
+     */
     public Bullet() {
-        super(bulletTime, new SuperFast(), bulletName);
+        super(TIME, new SuperFast(), NAME);
     }
 }

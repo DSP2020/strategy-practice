@@ -1,0 +1,6 @@
+
+/**
+ * package strategy.
+ */
+
+package strategy;

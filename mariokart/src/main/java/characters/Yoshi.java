@@ -1,12 +1,46 @@
 package characters;
 
+import drift.Drift;
+import drift.NormalDrifting;
+/**
+ * Yoshi!
+ *
+ */
 public class Yoshi extends Character {
-    static String nameYoshi = "Yoshi";
-    static int strenghtYoshi = 150;
-    static int massYoshi = 60;
-    static int maxSpeedYoshi = 50;
-
+    /**
+     * NAME!
+     *
+     */
+    private static final String NAME = "Yoshi";
+    /**
+     * STRENGTH!
+     *
+     */
+    private static final int STRENGTH = 150;
+    /**
+     * MASS!
+     *
+     */
+    private static final int MASS = 60;
+    /**
+     * MAXSPEED!
+     *
+     */
+    private static final int MAXSPEED = 50;
+    /**
+     * driftYoshi!
+     *
+     */
+    private static Drift driftYoshi = new NormalDrifting();
+    /**
+     * constructor!
+     *
+     */
     public Yoshi() {
-        super(strenghtYoshi, massYoshi, nameYoshi, maxSpeedYoshi);
+        super(STRENGTH,
+                MASS,
+                NAME,
+                MAXSPEED,
+                driftYoshi);
     }
 }
