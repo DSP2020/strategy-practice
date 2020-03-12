@@ -1,17 +1,16 @@
 package mx.mx.iteso.mariokart.behaviors.impl;
 
 import mx.mx.iteso.mariokart.behaviors.Aceleracion;
-
 /**
 
- * En esta clase de implementa la velocidad más lenta.
+ * En esta clase de implementa la velocidad más rápida.
 
  * @author: Frank De La Torre
 
  * @version: 11/03/2019
 
  */
-public class Lento implements Aceleracion {
+public class Rapida implements Aceleracion {
     /**
 
      * En est metodo se calcula la velocidad.
@@ -24,9 +23,10 @@ public class Lento implements Aceleracion {
     @Override
     public String aceleNombre(int curracel) {
         String acelnom = "";
+        final int vel4 = 4;
 
-        if (curracel <= 2) {
-            acelnom = "Velocidad " + curracel + " es Lenta";
+        if (curracel > vel4) {
+            acelnom = "Velocidad " + curracel + " es Rápida!";
         }
         return acelnom;
     }

@@ -4,14 +4,14 @@ import mx.mx.iteso.mariokart.Item;
 import mx.mx.iteso.mariokart.MarioKartCharacter;
 /**
 
- * En esta clase de implementa el personaje Luigi.
+ * En esta clase de implementa el personaje Donkey Kong.
 
  * @author: Frank De La Torre
 
  * @version: 11/03/2019
 
  */
-public class BabyLuigi extends MarioKartCharacter {
+public class DonkeyKong extends MarioKartCharacter {
     /**
 
      * Variable de Aceleración Inicial.
@@ -21,7 +21,7 @@ public class BabyLuigi extends MarioKartCharacter {
      * @version: 11/03/2019
 
      */
-    private int acelInic = 3;
+    private int acelInic = 1;
     /**
 
      * Variable de Aceleración Actual.
@@ -31,7 +31,7 @@ public class BabyLuigi extends MarioKartCharacter {
      * @version: 11/03/2019
 
      */
-    private int curracel = 3;
+    private int curracel = 1;
     /**
 
      * Variable de Aceleración Máxima.
@@ -41,7 +41,7 @@ public class BabyLuigi extends MarioKartCharacter {
      * @version: 11/03/2019
 
      */
-    private int acelTop = 7;
+    private int acelTop = 5;
     /**
 
      * Variable de Coeficiente de Derrape.
@@ -51,8 +51,7 @@ public class BabyLuigi extends MarioKartCharacter {
      * @version: 11/03/2019
 
      */
-    private int coefderrape = 1;
-
+    private int coefderrape = 3;
     /**
 
      * En este metodo se asigna la aceleración inical.
