@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47b52475-f34d-44c5-bceb-58ba1aac2e8d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YxH8vcqk5aQyOw56cxgGJ0vsU2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\erikb\Documents\Ingenieria en Sistemas\Diseño de software\MarioKart\src\main\java\mx\iteso" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.mx.iteso in MarioKart">
+    <configuration name="FastAccelerationTest.testAcceleration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.behaviors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.iteso.behaviors" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.behaviors.FastAccelerationTest" />
+      <option name="METHOD_NAME" value="testAcceleration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NormalAccelerationTest.testAcceleration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.behaviors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.iteso.behaviors" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.behaviors.NormalAccelerationTest" />
+      <option name="METHOD_NAME" value="testAcceleration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlowAccelerationTest.testAcceleration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.behaviors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.iteso.behaviors" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.behaviors.SlowAccelerationTest" />
+      <option name="METHOD_NAME" value="testAcceleration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YoshiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.characters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.iteso.characters" />
+      <option name="MAIN_CLASS_NAME" value="mx.iteso.characters.YoshiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mx.iteso in MarioKart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MarioKart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.iteso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mx.iteso" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.mx.iteso in MarioKart" />
+        <item itemvalue="JUnit.SlowAccelerationTest.testAcceleration" />
+        <item itemvalue="JUnit.NormalAccelerationTest.testAcceleration" />
+        <item itemvalue="JUnit.FastAccelerationTest.testAcceleration" />
+        <item itemvalue="JUnit.YoshiTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47b52475-f34d-44c5-bceb-58ba1aac2e8d" name="Default Changelist" comment="" />
+      <created>1583877169163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583877169163</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1583879617964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583879617964" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom" timestamp="1583975872459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583889111470" />
+    <state width="746" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583975872459" />
+    <state width="746" height="210" key="GridCell.Tab.0.center" timestamp="1583975872458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583889111470" />
+    <state width="746" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583975872458" />
+    <state width="746" height="210" key="GridCell.Tab.0.left" timestamp="1583975872458">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583889111470" />
+    <state width="746" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583975872458" />
+    <state width="746" height="210" key="GridCell.Tab.0.right" timestamp="1583975872459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1583889111470" />
+    <state width="746" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583975872459" />
+  </component>
+</project>
