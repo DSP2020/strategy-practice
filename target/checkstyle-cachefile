@@ -1,10 +1,25 @@
-#Tue Feb 25 00:24:47 CST 2020
-configuration*?=37CB97D4996F6D33F9A0BB8F7D51DFD4487213DC
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/QuesoChihuahua.java=1582588584836
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/Quesadilla.java=1582588944275
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/TortillaHarina.java=1582588732922
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/Queso.java=1582555093113
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/QuesoManchego.java=1582588016865
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/Tortilla.java=1582588561482
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/package-info.java=1582588215727
-/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/pr\u00E1ctica\ 1/unit-test/src/main/java/mx/iteso/ut/TortillaMaiz.java=1582588839089
+#Thu Mar 12 01:14:42 CST 2020
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/items/Mushroom.java=1583996860964
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/MariokartCharacter.java=1583996709795
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/impl/SuperFastDrift.java=1583995431785
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/package-info.java=1583997273407
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/impl/SuperFast.java=1583995441021
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/characters/Bowser.java=1583996188447
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/items/package-info.java=1583997166936
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/impl/VeryFastDrift.java=1583995567323
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/impl/Fast.java=1583995448705
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/Item.java=1583996535596
+configuration*?=47D4768823082C7A8C899F993B3484EF5D5E5EFC
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/characters/Luigi.java=1583996172466
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/IfDrifting.java=1583994972452
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/impl/VeryFast.java=1583995462298
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/characters/Mario.java=1583996310181
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/impl/FastDrift.java=1583995099683
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/impl/package-info.java=1583997175147
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/characters/package-info.java=1583997169895
+module-resource*?\:checkstyle-xpath-suppressions.xml=60B7841CDEB78F76F895501309E0C87E9641F425
+module-resource*?\:checkstyle-suppressions.xml=8485815239DA769AA08968D65116C5914AA3D910
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/items/Star.java=1583996948549
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/items/Shell.java=1583996905371
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/behaviors/IfAcceleration.java=1583994965138
+/Users/raul/Google\ Drive/ITESO/Ingenier\u00EDa\ en\ Sistemas\ Computacionales\ /Dise\u00F1o/strategy-practice/strategy-practice/src/main/java/mx/iteso/mariokart/package-info.java=1583997111720

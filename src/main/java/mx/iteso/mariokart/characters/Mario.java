@@ -1,23 +1,43 @@
 package mx.iteso.mariokart.characters;
-
 import mx.iteso.mariokart.MariokartCharacter;
-import mx.iteso.mariokart.behaviors.ifAcceleration;
-import mx.iteso.mariokart.behaviors.impl.Fast;
+//import mx.iteso.mariokart.behaviors.ifAcceleration;
+//import mx.iteso.mariokart.behaviors.impl.Fast;
+/**
+ * El personaje que todos quieren pero la neta está bn chafa.
+ */
 
 public class Mario extends MariokartCharacter {
-    static final double MarioVelocity = 200;
-    private String currVelocity; 
+    /**
+     * Attr.
+     */
+    static final double MARIOVEL = 200;
+    /**
+     * Attr.
+     * @param newVel
+     */
+    private String currVelocity;
     //ifAcceleration acMario = new Fast();
 
-    public String getCurrentVelocity(){
+    /**
+     * Getter.
+     * @return String
+     */
+    public String getCurrentVelocity() {
         return this.currVelocity;
     }
 
-    public void setCurrentVelocity(String v){
+    /**
+     * Setter.
+     * @param newVel
+     */
+    public void setCurrentVelocity(final String newVel) {
         this.currVelocity = v;
     }
 
-    public Mario(){
+    /**
+     * Setter.
+     */
+    public Mario() {
         super(MarioVelocity);
         this.currVelocity = MarioVelocity;
     }

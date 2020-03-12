@@ -1,31 +1,63 @@
 package mx.iteso.mariokart; //ut
+/**
+ * Items que todos usan.
+ */
 
 public abstract class Item {
-
+    /**
+     * Attr.
+     */
     private int duration;
+    /**
+     * Attr.
+     */
     private double velocity;
     //private String name;
 
-    public int getDuration(){
+    /**
+     * Getter.
+     * @return String
+     */
+    public int getDuration() {
         return this.duration;
     }
 
-    public double getVelocity(){
+    /**
+     * Getter.
+     * @return String
+     */
+    public double getVelocity() {
         return this.velocity;
     }
 
-    public void setDuration(int newDuration){
+    /**
+     * Setter.
+     * @param newDuration
+     */
+    public void setDuration(final int newDuration) {
         this.duration = newDuration;
     }
 
-    public void setVelocity(double newVelocity){
-        this.velocity = newVelocity; 
+    /**
+     * Setter.
+     * @param newVelocity
+     */
+    public void setVelocity(final double newVelocity) {
+        this.velocity = newVelocity;
     }
 
-    public Item(int d, double v){
+    /**
+     * Constructor.
+     * @param d
+     * @param v
+     */
+    public Item(final int d, final double v) {
         this.duration = d;
         this.velocity = v;
     }
-    
+    /**
+     * Activator.
+     * @param c
+     */
     public abstract void activeItem(MariokartCharacter c);
 }
