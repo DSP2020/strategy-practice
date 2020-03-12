@@ -16,6 +16,4 @@ public class VeryFastAcceleration implements Acceleration {
         String str = "Very Fast Acceleration";
         return str;
     }
-
-    
 }

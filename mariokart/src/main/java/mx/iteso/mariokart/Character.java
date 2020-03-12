@@ -7,84 +7,67 @@ import mx.iteso.mariokart.behaviors.Acceleration;
  */
 public abstract class Character {
     /**
-     * The character's acceleration.
+     * Drives the character.
+     * @return that it is driving.
      */
-    private Acceleration acceleration;
-    /**
-     * The character's item.
-     */
-    private Item item;
-
-    /**
-     * Drives the character
-     */
-    abstract public void drive();
+    public abstract String drive();
 
     /**
      * Sets the acceleration.
-     * 
      * @param acc the acceleration to set.
      */
-    public void setAccelerationAb(Acceleration acc) {
-        this.acceleration = acc;
-    }
+    public abstract void setAcceleration(Acceleration acc);
 
     /**
      * Gets the acceleration.
-     * 
      * @return the acceleration.
      */
-    public Acceleration getAccelerationAb() {
-        return acceleration;
-    }
+    public abstract Acceleration getAcceleration();
 
     /**
      * Sets the item.
-     * 
      * @param itemNew the item to set.
      */
-    public void setItem(Item itemNew) {
-        this.item = itemNew;
-    }
+    public abstract void setItem(Item itemNew);
 
     /**
      * Gets the item.
-     * 
      * @return the item.
      */
-    public Item getItem() {
-        return item;
-    }
+    public abstract Item getItem();
 
     /**
-     * Accelertes the character.
+     * Accelerates the character.
+     * @return the acceleration if theres an item.
      */
-    public void accelerate() {
-        Acceleration originalAcceleration = getAccelerationAb();
-        if(item != null){
-            item.getAcceleration().accelerate();
-        }else{
-            originalAcceleration.accelerate();
+    public String accelerate() {
+        Acceleration originalAcceleration = getAcceleration();
+        if (getItem() != null) {
+            return getItem().getAcceleration().accelerate();
+        } else {
+            return originalAcceleration.accelerate();
         }
-        setAccelerationAb(originalAcceleration);
-
     }
 
     /**
      * Uses the item and then sets it to null.
+     * @return the acceleration at the moment.
      */
-    public void useItem() {
-        Acceleration originalAcceleration = getAccelerationAb();
-        if (item != null) {
+    public String useItem() {
+        Acceleration originalAcceleration = getAcceleration();
+        Acceleration modifiedAcceleration = getAcceleration();
+        if (getItem() != null) {
             int currentTime = 0;
-            int time = item.getDurationTime();
-            setAccelerationAb(item.getAcceleration());
+            int time = getItem().getDurationTime();
+            setAcceleration(getItem().getAcceleration());
             while (currentTime < time) {
-                accelerate();
+                modifiedAcceleration = getAcceleration();
                 currentTime++;
             }
-            item = null;
+            setItem(null);
+            setAcceleration(originalAcceleration);
+            return modifiedAcceleration.accelerate();
         }
-        setAccelerationAb(originalAcceleration);
+        return originalAcceleration.accelerate();
     }
 }

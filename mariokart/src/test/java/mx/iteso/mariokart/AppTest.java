@@ -1,4 +1,4 @@
-package mx.iteso.mariokart;
+/*package mx.iteso.mariokart;
 
 import static org.junit.Assert.assertTrue;
 
@@ -6,15 +6,14 @@ import org.junit.Test;
 
 /**
  * Unit test for simple App.
- */
-public class AppTest 
-{
+ 
+public class AppTest {
     /**
-     * Rigorous Test :-)
-     */
+     * App test
+     
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void shouldAnswerWithTrue() {
+        assertTrue(true);
     }
 }
+*/

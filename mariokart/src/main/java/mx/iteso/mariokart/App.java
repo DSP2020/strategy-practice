@@ -1,20 +1,24 @@
-package mx.iteso.mariokart;
+/*package mx.iteso.mariokart;
 
-import mx.iteso.mariokart.characters.*;
-import mx.iteso.mariokart.items.*;
+import mx.iteso.mariokart.characters.DonkeyKong;
+import mx.iteso.mariokart.items.Star;
 
 /**
- * Application
+ * Application.
  */
-public class App {
-    public static void main(String[] args) {
-        DonkeyKong DKOriginal = new DonkeyKong();
-        Character DK = new DonkeyKong();
+/*final class App {
+
+    /**
+    * Application to test.
+    * @param args as need for the class
+    public static void main(final String[] args) {
+        DonkeyKong dKOriginal = new DonkeyKong();
+        Character dK = new DonkeyKong();
         Item actualItem = new Star();
-        DK.setAccelerationAb(DKOriginal.getAcceleration());
-        DK.setItem(actualItem);
-        DK.accelerate();
-        DK.useItem();
-        DK.accelerate();
+        dK.setAcceleration(dKOriginal.getAcceleration());
+        dK.setItem(actualItem);
+        dK.accelerate();
+        dK.useItem();
+        dK.accelerate();
     }
-}
+}*/

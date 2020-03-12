@@ -5,7 +5,7 @@ import mx.iteso.mariokart.behaviors.Acceleration;
 /**
  * Slow Acceleration implementation.
  */
-public class SlowAcceleration implements Acceleration{
+public class SlowAcceleration implements Acceleration {
 
     /**
      * It return the actual acceleration.
@@ -16,6 +16,4 @@ public class SlowAcceleration implements Acceleration{
         String str = "Slow Acceleration";
         return str;
     }
-
-    
 }

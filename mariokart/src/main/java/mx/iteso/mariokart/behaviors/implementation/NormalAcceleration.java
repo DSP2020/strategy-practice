@@ -3,7 +3,7 @@ package mx.iteso.mariokart.behaviors.implementation;
 import mx.iteso.mariokart.behaviors.Acceleration;
 
 /**
- * Normal Acceleration implementation
+ * Normal Acceleration implementation.
  */
 public class NormalAcceleration implements Acceleration {
 
@@ -16,6 +16,4 @@ public class NormalAcceleration implements Acceleration {
         String str = "Normal Acceleration";
         return str;
     }
-
-    
 }
