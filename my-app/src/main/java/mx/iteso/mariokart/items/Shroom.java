@@ -9,7 +9,7 @@ public class Shroom extends Item{
 	@Override
 	public void itemEffect(MarioKartCharacter character) {
 		character.setAcceleration(new VeryFast());
-		
+		character.setDrift(new PerfectDrift());
 	}
 
 }
