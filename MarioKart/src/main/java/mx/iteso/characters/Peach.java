@@ -3,7 +3,11 @@ package mx.iteso.characters;
 import mx.iteso.MarioKartCharacter;
 
 public class Peach extends MarioKartCharacter {
-    public String drive(){
+    /**
+     * drive method.
+     * @return The character drive message.
+     */
+    public String drive() {
         return "It's me Peach";
     }
 }

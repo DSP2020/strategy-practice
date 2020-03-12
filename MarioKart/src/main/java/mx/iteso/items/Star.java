@@ -5,7 +5,11 @@ import mx.iteso.behaviors.Acceleration;
 import mx.iteso.behaviors.impl.acceleration.FastAcceleration;
 
 public class Star extends Item {
-    public Acceleration getAcceleration(){
+    /**
+     * Modifies the acceleration to fast.
+     * @return new fast acceleration;
+     */
+    public Acceleration getAcceleration() {
         return new FastAcceleration();
     }
 }

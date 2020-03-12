@@ -10,4 +10,5 @@
 *Here is the succesful run of all the unit test.
 ![Unit Test](CorrectUnitTests.PNG)
 
-*Here is the checkstyle with 0 errors
+*Here is the checkstyle HTML with 0 errors.
+![CheckStyle](checkstyle.PNG)

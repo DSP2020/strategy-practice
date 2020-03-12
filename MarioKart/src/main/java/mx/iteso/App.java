@@ -5,13 +5,14 @@ import mx.iteso.characters.Yoshi;
 import mx.iteso.items.Star;
 
 /**
- * Hello world!
- *
+ * App main class.
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public abstract class App {
+    /**
+     * main method.
+     * @param args args.
+     */
+    public static void main(final String[] args) {
         MarioKartCharacter yoshi = new Yoshi();
         Item star = new Star();
         yoshi.setAcceleration(new NormalAcceleration());

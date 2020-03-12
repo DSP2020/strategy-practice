@@ -5,8 +5,11 @@ import mx.iteso.behaviors.Acceleration;
 import mx.iteso.behaviors.impl.acceleration.SlowAcceleration;
 
 public class Banana extends Item {
-
-    public Acceleration getAcceleration(){
+    /**
+     * Modifies the acceleration to slow.
+     * @return new slow acceleration;
+     */
+    public Acceleration getAcceleration() {
         return new SlowAcceleration();
     }
 }
