@@ -20,88 +20,107 @@ import mx.iteso.mariokart.behaviors.behaviors.impl.Wide;
  * @author coque
  */
 public class Bowser extends MarioKartCharacter {
-    Acceleration acceleration  = new Slow();
-    Drifting drifting = new Normal();
-    Item item;
-    int speed = 100;
-    String name = "Bowser";
-    
-    
-    public void start(){
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    private Acceleration acceleration  = new Slow();
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    private Drifting drifting = new Normal();
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    private Item item;
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    private String name = "Bowser";
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    public void start() {
         System.out.println("Bowser moving");
         this.acceleration.doAcceleration();
         this.drifting.doDrifting();
     }
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    *@param itemParam El parámetro numeroItems define el número de elementos
+    *que va a tener la serie aleatoria
+    */
     @Override
-    public void alterAcceleration(Item itemParam){
-        if(itemParam.getName() == "Mushroom"){
+    public String alterAcceleration(final Item itemParam) {
+        if (itemParam.getName() == "Mushroom") {
             Acceleration acc = new Fast();
-            acc.doAcceleration();
-            System.out.println("End ITEM");
-            this.acceleration.doAcceleration();
-        }else if (itemParam.getName() == "Lightning"){
+            return acc.doAcceleration();
+        } else if (itemParam.getName() == "Lightning") {
             Acceleration acc = new VerySlow();
-            acc.doAcceleration();
-            System.out.println("End ITEM");
-            this.acceleration.doAcceleration();            
-        }else if(itemParam.getName() == "BulletBill"){
+            return acc.doAcceleration();
+        } else if (itemParam.getName() == "BulletBill") {
             Acceleration acc = new VeryFast();
-            acc.doAcceleration();
-            System.out.println("End ITEM");
-            this.acceleration.doAcceleration();            
+            return acc.doAcceleration();
         }
-        
+        return this.acceleration.doAcceleration();
     }
-    
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    *@param itemParam El parámetro numeroItems define el número de elementos
+    *que va a tener la serie aleatoria
+    */
     @Override
-    public void alterDrifting(Item itemParam){
-        if(itemParam.getName() == "Mushroom"){
+    public String alterDrifting(final Item itemParam) {
+        if (itemParam.getName() == "Mushroom") {
             Drifting dt = new Wide();
-            dt.doDrifting();
-            System.out.println("End ITEM");
-            this.drifting.doDrifting();
-        }else if (itemParam.getName() == "Lightning"){
+            return dt.doDrifting();
+        } else if (itemParam.getName() == "Lightning") {
             Drifting dt = new Limited();
-            dt.doDrifting();
-            System.out.println("End ITEM");
-            this.drifting.doDrifting();           
-        }else if(itemParam.getName() == "BulletBill"){
+            return dt.doDrifting();
+        } else if (itemParam.getName() == "BulletBill") {
             Drifting dt = new Limited();
-            dt.doDrifting();
-            System.out.println("End ITEM");
-            this.drifting.doDrifting();           
+            return dt.doDrifting();
         }
+        return this.drifting.doDrifting();
     }
-    
-    
-    
-    public void setAcceleration(Acceleration accelerationParam){
-        this.acceleration = accelerationParam; 
-    }
-    
-    public void setDrifting(Drifting driftingParam){
-        this.drifting = driftingParam;
-    }
-        
-    public String getName(){
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
+    public String getName() {
         return this.name;
     }
-    
-    public int getDefaultSpeed(){
-        return this.speed;
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
+    public Acceleration getAcceleration() {
+        return this.acceleration;
     }
-    
-    public void setDefaultSpeed(int speedParam){
-        this.speed = speedParam;
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
+    public Drifting getAcceleratio() {
+        return this.drifting;
     }
-        
-//    @Override
-//    public void alterAcceleration(Item itemParam){
-//        
-//    }
-    
-    
-    
-//    public abstract void alterDrifting(Item itemParam);
-    
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
+    public Item getItem() {
+        return this.item;
+    }
 }

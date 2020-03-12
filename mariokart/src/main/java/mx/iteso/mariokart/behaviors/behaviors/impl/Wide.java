@@ -11,9 +11,15 @@ import mx.iteso.mariokart.behaviors.Drifting;
  *
  * @author coque
  */
-public class Wide implements Drifting{
+public class Wide implements Drifting {
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
     @Override
-    public void doDrifting(){
-        System.out.println("Wide Drifting");
-    }    
+    public String doDrifting() {
+        //System.out.println("Wide Drifting");
+        return "Wide Drifting";
+    }
 }

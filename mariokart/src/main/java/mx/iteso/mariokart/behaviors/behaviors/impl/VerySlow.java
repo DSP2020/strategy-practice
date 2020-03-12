@@ -11,9 +11,15 @@ import mx.iteso.mariokart.behaviors.Acceleration;
  *
  * @author coque
  */
-public class VerySlow implements Acceleration{
-        @Override
-    public void doAcceleration(){
+public class VerySlow implements Acceleration {
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
+    @Override
+    public String doAcceleration() {
         System.out.println("Very Slow Aceleration");
+        return "Very Slow Aceleration";
     }
 }

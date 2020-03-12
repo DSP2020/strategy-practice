@@ -5,33 +5,37 @@
  */
 package mx.iteso.mariokart.items;
 import mx.iteso.mariokart.Item;
-import static mx.iteso.mariokart.items.BulletBill.ABILITY_TIME;
-
 /**
  *
  * @author coque
  */
-public class Lightning extends Item{
-    static final int DECREASE_SPEED = -20;
-    static final String ITEM_NAME = "Ligtning";
-    static final int ABILITY_TIME = 20;
-    
-    String name = ITEM_NAME;
-    int effect =  DECREASE_SPEED;
-    int time = ABILITY_TIME;
-    
+public class Lightning extends Item {
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    static final String ITEM_NAME = "Lightning";
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    private String name = ITEM_NAME;
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
     @Override
     public String getName() {
         return this.name;
     }
-    
-    @Override
-    public int getEffect() {
-       return this.effect;
-    }
-    
-    @Override
-    public int getTime() {
-       return this.time;
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    *@param nameParam El parámetro numeroItems define el número de elementos
+    *que va a tener la serie aleatoria
+    */
+    public void setName(final String nameParam) {
+        this.name = nameParam;
     }
 }

@@ -4,13 +4,15 @@
  * and open the template in the editor.
  */
 package mx.iteso.mariokart.behaviors;
-
-import mx.iteso.mariokart.Item;
-
 /**
  *
  * @author coque
  */
 public interface Drifting {
-   public void doDrifting(); 
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
+   String doDrifting();
 }

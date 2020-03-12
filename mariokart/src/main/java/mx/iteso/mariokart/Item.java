@@ -10,12 +10,15 @@ package mx.iteso.mariokart;
  * @author coque
  */
 public abstract class Item {
-    String name;
-    int effect;
-    int time;
-    
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    */
+    private String name;
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
     public abstract String getName();
-    public abstract int getEffect();
-    public abstract int getTime();
-    
 }

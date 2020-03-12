@@ -11,9 +11,15 @@ import mx.iteso.mariokart.behaviors.Drifting;
  *
  * @author coque
  */
-public class Normal implements Drifting{
+public class Normal implements Drifting {
+    /**
+    * Método que devuelve el número de ítems (números aleatorios) existentes en
+    * la serie.
+    * @return El número de ítems (números aleatorios) de que consta la serie
+    */
     @Override
-    public void doDrifting(){
+    public String doDrifting() {
         System.out.println("Normal Drifting");
+        return "Normal Drifting";
     }
 }
