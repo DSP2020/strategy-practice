@@ -2,50 +2,83 @@ package acceleration;
 
 import item.Item;
 
+/**
+ * @author hecto
+ *
+ */
 public class Slow implements Acceleration {
-	private int currentAcceleration;
-	
-	public Slow() {
-		this.setCurrentAcceleration(0);
-	}
-	
-	public void itemAcceleration(Item i) {
-		System.out.println("ITEM ACCELERATION");
+/**
+*/
+private int currentAcceleration;
 
-		int current = getAcceleration();
-		int a = 0;
-		
-		while(a < i.getRateAcceleration()) {
-			System.out.println("CURRENT ITEM ACCELERATION: " + getAcceleration());
-			acceleration(i.getRateAcceleration());
-			
-			try {
-				Thread.sleep(1000);
-				a++;
-			} catch (InterruptedException e) 
-			{}
-		}
-		
-		System.out.println("FINISHED ITEM ACCELERATION: " + getAcceleration());
-		
-		setCurrentAcceleration(current);
-	}
-	
-	public int getAcceleration() {
-		return this.currentAcceleration;
-	}
+/**
+*/
+private final int sleepTime = 1000;
 
-	private void setCurrentAcceleration(int ca) {
-		this.currentAcceleration = ca;
-	}
-	
-	private void acceleration(int a) {
-		this.currentAcceleration += a; 
-	}
+/**
+*/
+private final int accelarate = 1;
 
-	public void basicAcceleration() {
-		System.out.println("Actual acceleration: " + getAcceleration());
-		this.currentAcceleration ++; 
-		System.out.println("New acceleration: " + getAcceleration());
-	}
+/**
+*/
+public Slow() {
+this.currentAcceleration = 0;
+}
+
+/**
+* @param i
+* Item
+*/
+public final void itemAcceleration(final Item i) {
+System.out.println("ITEM ACCELERATION");
+int current = getAcceleration();
+int a = 0;
+
+while (a < i.getRateAcceleration()) {
+System.out.println("CURRENT ITEM ACCELERATION: " + getAcceleration());
+acceleration(i.getRateAcceleration());
+
+try {
+Thread.sleep(sleepTime);
+a++;
+} catch (InterruptedException e) {
+System.out.println(e);
+}
+}
+System.out.println("FINISHED ITEM ACCELERATION: " + getAcceleration());
+System.out.println("Slow down, you are going to fast. Be careful");
+setAcceleration(current);
+}
+
+/**
+* @return int
+*/
+public final int getAcceleration() {
+return currentAcceleration;
+}
+
+/**
+* @param ca
+* int
+*/
+public void setAcceleration(final int ca) {
+this.currentAcceleration += ca;
+}
+
+/**
+* @param a
+* int
+*/
+private void acceleration(final int a) {
+this.currentAcceleration += a;
+}
+
+/**
+*/
+public final void basicAcceleration() {
+System.out.println("Actual acceleration: " + getAcceleration());
+this.currentAcceleration += accelarate;
+System.out.println("New acceleration: " + getAcceleration());
+}
+
 }

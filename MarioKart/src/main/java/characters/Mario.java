@@ -1,32 +1,29 @@
 package characters;
 
 import acceleration.Fast;
-import item.Champinon;
+import drifting.Low;
 
-public class Mario extends Character{
-	public Mario() {
-		setAccelerationType(new Fast());
-	}
+/**
+ * @author hecto
+ *
+ */
+public class Mario extends Character {
 
-	@Override
-	public void startRunning() {
-		System.out.println("Hello, it's me Mario:");
-		System.out.println("I'll start the race");
-		int time = 0;
-		int itemTime = (int)(Math.random() * 10);
-		
-		while(time < 20) {
-			try {
-				if(time == itemTime) {
-					this.accelerationItem(new Champinon());
-				}
-				
-				this.accelerate();
-				Thread.sleep(500);
-				time ++;
-			} catch (InterruptedException e) {}
-		}
-		
-		System.out.println("I just finished the race, my acceleration was: " + this.getAcceleration());
-	}
+/**
+*/
+public Mario() {
+setAccelerationType(new Fast());
+setDrifting(new Low());
+}
+
+/**
+*/
+public final void startRunning() {
+System.out.println("Hello, it's me Mario:");
+System.out.println("I'll start the race");
+super.startRunning();
+System.out.println("I finished the race my acceleration was: "
++ this.getAcceleration());
+}
+
 }

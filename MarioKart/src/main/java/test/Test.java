@@ -4,17 +4,29 @@ import characters.Bowser;
 import characters.Luigi;
 import characters.Mario;
 
-public class Test {
+/**
+ * @author hecto
+ *
+ */
+public final class Test {
+/**
+*/
+private Test() {
+}
 
-	public static void main(String[] args) {
-		Luigi luigi = new Luigi();
-		luigi.startRunning();
-		
-		Mario mario = new Mario();
-		mario.startRunning();
-	
-		Bowser bowser = new Bowser();
-		bowser.startRunning();
-	}
+/**
+ * @param args
+ * String[]
+*/
+public static void main(final String[] args) {
+Luigi luigi = new Luigi();
+luigi.startRunning();
+
+Mario mario = new Mario();
+mario.startRunning();
+
+Bowser bowser = new Bowser();
+bowser.startRunning();
+}
 
 }
