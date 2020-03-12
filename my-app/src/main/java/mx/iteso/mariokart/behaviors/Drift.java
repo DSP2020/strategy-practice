@@ -1,5 +1,9 @@
 package mx.iteso.mariokart.behaviors;
 
 public interface Drift {
-	String drift();
+/**
+ * Drift.
+ * @return String
+ */
+String drift();
 }

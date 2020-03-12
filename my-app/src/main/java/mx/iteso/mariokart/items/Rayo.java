@@ -5,10 +5,12 @@ import mx.iteso.mariokart.behaviors.impl.BadDrift;
 import mx.iteso.mariokart.behaviors.impl.VeryLow;
 
 public class Rayo extends Item {
-	
-	@Override
-	public void activeItem(MarioKartCharacter c) {
-		c.setAcelerate(new VeryLow());
-		c.setDrift(new BadDrift());
-	}
+/**
+ * Raio.
+ */
+@Override
+public void activeItem(final MarioKartCharacter c) {
+c.setAcelerate(new VeryLow());
+c.setDrift(new BadDrift());
+}
 }

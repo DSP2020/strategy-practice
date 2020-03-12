@@ -6,10 +6,12 @@ import mx.iteso.mariokart.behaviors.impl.SoFast;
 
 
 public class BilBall extends Item {
-	
-	@Override
-	public void activeItem(MarioKartCharacter c) {
-		c.setAcelerate(new SoFast());
-		c.setDrift(new GoodDrift());
-	}
+/**
+ * BilBall.
+ */
+@Override
+public void activeItem(final MarioKartCharacter c) {
+c.setAcelerate(new SoFast());
+c.setDrift(new GoodDrift());
+}
 }

@@ -1,30 +1,49 @@
 package mx.iteso.mariokart;
-
 import mx.iteso.mariokart.behaviors.Acceleration;
 import mx.iteso.mariokart.behaviors.Drift;
 
 public abstract class MarioKartCharacter {
-	
-	private Acceleration al;
-	private Drift drift;
-	
-	public Acceleration getAcelerate() {
-		return al;
-	}
-
-	public void setAcelerate(Acceleration ab) {
-		this.al = ab;
-	}
-	
-	public void takeEffect(Item a) {
-	a.activeItem(this);
-	}
-	
-	public Drift getDrift() {
-		return drift;
-	}
-	
-	public void setDrift(Drift d) {
-		this.drift = d;
-	}
+/**
+ * Aceleracción.
+ */
+private Acceleration al;
+/**
+ * Drift.
+ */
+private Drift drift;
+/**
+ * Get aceleración.
+ * @return al
+ */
+public Acceleration getAcelerate() {
+return al;
+}
+/**
+ * Set aceleración.
+ * @param ab
+ */
+public void setAcelerate(final Acceleration ab) {
+this.al = ab;
+}
+/**
+ * Tomar efecto del item.
+ * @param a
+ */
+public void takeEffect(final Item a) {
+a.activeItem(this);
+}
+/**
+ * Get drift.
+ * @return drift
+ */
+public Drift getDrift() {
+return drift;
+}
+/**
+ * Set drift.
+ * @param dr
+ */
+public void setDrift(final Drift dr) {
+this.drift = dr;
+}
 }
