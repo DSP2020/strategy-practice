@@ -1,10 +1,12 @@
 package mx.iteso.mariokart;
 
 import mx.iteso.mariokart.behaviors.Acceleration;
+import mx.iteso.mariokart.behaviors.Drift;
 
 public abstract class MarioKartCharacter {
 	
 	private Acceleration al;
+	private Drift drift;
 	
 	public Acceleration getAcelerate() {
 		return al;
@@ -18,4 +20,11 @@ public abstract class MarioKartCharacter {
 	a.activeItem(this);
 	}
 	
+	public Drift getDrift() {
+		return drift;
+	}
+	
+	public void setDrift(Drift d) {
+		this.drift = d;
+	}
 }
