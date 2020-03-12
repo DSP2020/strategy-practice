@@ -6,7 +6,13 @@ import mx.iteso.mariokart.behaviors.Drift;
 import mx.iteso.mariokart.behaviors.impl.Normal;
 import mx.iteso.mariokart.behaviors.impl.NormalDrift;
 
-public class Mario extends MarioKartCharacter{
-	Acceleration acc = new Normal();
-	Drift dr = new NormalDrift();
+public class Mario extends MarioKartCharacter {
+/**
+ * Normal acceleration.
+ */
+private Acceleration acc = new Normal();
+/**
+ * Normal drift.
+ */
+private Drift dr = new NormalDrift();
 }
