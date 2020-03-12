@@ -1,32 +1,43 @@
 package mx.iteso.marioKart.characters;
 
-import mx.iteso.marioKart.Item;
 import mx.iteso.marioKart.MarioKartCharacter;
-import mx.iteso.marioKart.behaviors.impl.PositiveAcceleration;
-import mx.iteso.marioKart.behaviorsInterfaces.Acceleration;
-import mx.iteso.marioKart.items.Rocket;
-import mx.iteso.marioKart.items.Thunder;
 
+/**
+ * clase Toad.
+ */
 public class Toad extends MarioKartCharacter {
-    static final double ToadVelocity = 55;
+    /**
+     * Velocidad del personaje Toad.
+     */
+    static final double TOAD_VELOCITY = 55;
+    /**
+     * velocidad actual.
+     */
     private double currentVelocity;
 
-    public Toad(){
-        super(ToadVelocity);
-        this.currentVelocity = ToadVelocity;
+    /**
+     * constructor.
+     */
+
+    public Toad() {
+        super(TOAD_VELOCITY);
+        this.currentVelocity = TOAD_VELOCITY;
     }
 
-    public void setCurrentVelocity(double v){
-        this.currentVelocity = v;
-    }
+    /**
+     *
+     * @return la velocidad actual.
+     */
 
-    public double getCurrentVelocity(){
+    public final double getCurrentVelocity() {
         return this.currentVelocity;
     }
 
+    /*
+    Dummy method for dummy testing
     public void changeAcceleration(double currentVelocity, Item item){
         super.getAcceleration().acceleration(currentVelocity,item);
         this.currentVelocity = ToadVelocity;
-    }
+    }*/
 
 }

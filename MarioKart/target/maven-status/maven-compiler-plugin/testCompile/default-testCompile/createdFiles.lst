@@ -1,0 +1,9 @@
+mx\iteso\marioKart\behaviors\impl\TestSmallDrift.class
+mx\iteso\marioKart\characters\TestMario.class
+mx\iteso\marioKart\characters\TestLuigi.class
+mx\iteso\marioKart\characters\TestToad.class
+mx\iteso\marioKart\behaviors\impl\TestBigDrift.class
+mx\iteso\marioKart\behaviors\impl\TestNegativeAcceleration.class
+mx\iteso\marioKart\behaviors\impl\TestMediaAcceleration.class
+mx\iteso\marioKart\behaviors\impl\TestMediumDrift.class
+mx\iteso\marioKart\behaviors\impl\TestPositiveAcceleration.class

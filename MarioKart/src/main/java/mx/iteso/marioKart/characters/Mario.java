@@ -1,31 +1,42 @@
 package mx.iteso.marioKart.characters;
 
-import mx.iteso.marioKart.Item;
 import mx.iteso.marioKart.MarioKartCharacter;
-import mx.iteso.marioKart.behaviors.impl.MediaAcceleration;
-import mx.iteso.marioKart.behaviorsInterfaces.Acceleration;
-import mx.iteso.marioKart.items.Star;
 
+/**
+ * clase Mario.
+ */
 public class Mario extends MarioKartCharacter {
-   static final double MarioVelocity = 150;
+    /**
+     * Velocidad normal de Mario.
+     */
+   public static final double MARIO_VELOCITY = 150;
+    /**
+     * velocidad actual de Mario.
+     */
    private double currentVelocity;
 
-    public Mario(){
-        super(MarioVelocity);
-        this.currentVelocity = MarioVelocity;
+    /**
+     * constructor.
+     */
+
+    public Mario() {
+        super(MARIO_VELOCITY);
+        this.currentVelocity = MARIO_VELOCITY;
     }
 
-    public void setCurrentVelocity(double v){
-        this.currentVelocity = v;
-    }
+    /**
+     *
+     * @return la velocidad actual.
+     */
 
-    public double getCurrentVelocity(){
+    public final double getCurrentVelocity() {
         return this.currentVelocity;
     }
 
+    /*Dummy Method for dummy testing
     public void changeAcceleration(double currentVelocity, Item item){
         super.getAcceleration().acceleration(currentVelocity,item);
         this.currentVelocity = MarioVelocity;
-    }
+    }*/
 
 }

@@ -2,7 +2,16 @@ package mx.iteso.marioKart.behaviorsInterfaces;
 
 import mx.iteso.marioKart.Item;
 
+/**
+ * interface Acceleration.
+ */
 public interface Acceleration {
-    public void acceleration(double currentVelocity, Item item);
+    /**
+     *
+     * @param currentVelocity velocidad actual.
+     * @param item que toma el jugador.
+     * @return un comentario sobre la aceleración.
+     */
+    String acceleration(double currentVelocity, Item item);
 }
 

@@ -2,10 +2,23 @@ package mx.iteso.marioKart.items;
 
 import mx.iteso.marioKart.Item;
 
+/**
+ * clase Rocket.
+ */
 public class Rocket extends Item {
-    static final double rocketVelocity = 1000000;
-    static final int rocketDuration = 10000;
-    public Rocket(){
-        super(rocketVelocity,rocketDuration);
+    /**
+     * Velocidad que te da un cohete.
+     */
+    static final double ROCKET_VELOCITY = 1000000;
+    /**
+     *Duración del cohete.
+     */
+    static final int ROCKET_DURATION = 10000;
+
+    /**
+     * constructor.
+     */
+    public Rocket() {
+        super(ROCKET_VELOCITY, ROCKET_DURATION);
     }
 }

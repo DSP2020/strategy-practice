@@ -1,32 +1,43 @@
 package mx.iteso.marioKart.characters;
 
-import mx.iteso.marioKart.Item;
 import mx.iteso.marioKart.MarioKartCharacter;
-import mx.iteso.marioKart.behaviors.impl.MediaAcceleration;
-import mx.iteso.marioKart.behaviors.impl.PositiveAcceleration;
-import mx.iteso.marioKart.behaviorsInterfaces.Acceleration;
-import mx.iteso.marioKart.items.Thunder;
 
+/**
+ * clase Luigi.
+ */
 public class Luigi extends MarioKartCharacter {
-    static final double LuigiVelocity = 170;
+    /**
+     * velocidad normal de un personaje Luigi.
+     */
+    static final double LUIGI_VELOCITY = 170;
+    /**
+     *
+     */
     private double currentVelocity;
 
-    public Luigi(){
-        super(LuigiVelocity);
-        this.currentVelocity = LuigiVelocity;
+    /**
+     * Constructor.
+     */
+
+    public Luigi() {
+        super(LUIGI_VELOCITY);
+        this.currentVelocity = LUIGI_VELOCITY;
     }
 
-    public void setCurrentVelocity(double v){
-        this.currentVelocity = v;
-    }
+    /**
+     *
+     * @return la velocidad actual de Luigi.
+     */
 
-    public double getCurrentVelocity(){
+    public final double getCurrentVelocity() {
         return this.currentVelocity;
     }
 
+    /*
+    Dummy method for dummy testing
     public void changeAcceleration(double currentVelocity, Item item){
         super.getAcceleration().acceleration(currentVelocity,item);
         this.currentVelocity = LuigiVelocity;
-    }
+    }*/
 
 }
