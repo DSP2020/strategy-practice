@@ -34,14 +34,14 @@ public class Shell extends Item {
      * Metodo que asigna el efecto del acceleracion.
      */
     public void setEfectAcceleration() {
-        this.setEfectAccelerationItem(timeEfect);
+        this.setEfectAccelerationItem(efectAcceleration);
     }
 
     /**
      * Metodo que asigna la duracion del efecto.
      */
     public void setTimeEfect() {
-        this.setTimeEfectItem(efectAcceleration);
+        this.setTimeEfectItem(timeEfect);
     }
 
     /**
