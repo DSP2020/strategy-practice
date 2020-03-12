@@ -7,7 +7,7 @@ public class BadDrift implements Drift {
  * Return Bad drift.
  */
 @Override
-public final String drift() {
+public String drift() {
 return "Bad drift";
 }
 

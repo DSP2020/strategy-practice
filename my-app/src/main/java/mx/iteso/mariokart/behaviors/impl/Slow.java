@@ -7,7 +7,7 @@ public class Slow implements Acceleration {
  * Return Slow speed.
  */
 @Override
-public final String accelerate() {
+public String accelerate() {
 return "Slow speed";
 }
 

@@ -10,7 +10,7 @@ public class Shroom extends Item {
  * Change characters statistics based on item.
  */
 @Override
-public final void itemEffect(final MarioKartCharacter character) {
+public void itemEffect(final MarioKartCharacter character) {
 character.setAcceleration(new VeryFast());
 character.setDrift(new PerfectDrift());
 }

@@ -7,7 +7,7 @@ public class PerfectDrift implements Drift {
  * Return Perfect drift.
  */
 @Override
-public final String drift() {
+public String drift() {
 return "Perfect drift";
 }
 

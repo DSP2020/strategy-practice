@@ -7,7 +7,7 @@ public class Normal implements Acceleration {
  * Return Normal speed.
  */
 @Override
-public final String accelerate() {
+public String accelerate() {
 return "Normal speed";
 }
 }

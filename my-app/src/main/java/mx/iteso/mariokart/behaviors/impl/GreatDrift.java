@@ -7,7 +7,7 @@ public class GreatDrift implements Drift {
  * Return Great drift.
  */
 @Override
-public final String drift() {
+public String drift() {
 return "Great drift";
 }
 

@@ -10,7 +10,7 @@ public class Boo extends Item {
  * Change characters statistics based on item.
  */
 @Override
-public final void itemEffect(final MarioKartCharacter character) {
+public void itemEffect(final MarioKartCharacter character) {
 character.setAcceleration(new Slow());
 character.setDrift(new NormalDrift());
 }

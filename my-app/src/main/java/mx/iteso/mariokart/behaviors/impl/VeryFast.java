@@ -7,7 +7,7 @@ public class VeryFast implements Acceleration {
  * Return Vert fast speed.
  */
 @Override
-public final String accelerate() {
+public String accelerate() {
 return "Very fast speed";
 }
 

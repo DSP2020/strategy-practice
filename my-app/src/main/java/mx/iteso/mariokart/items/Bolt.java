@@ -10,7 +10,7 @@ public class Bolt extends Item {
  * Change characters statistics based on item.
  */
 @Override
-public final void itemEffect(final MarioKartCharacter character) {
+public void itemEffect(final MarioKartCharacter character) {
 character.setAcceleration(new VerySlow());
 character.setDrift(new BadDrift());
 }

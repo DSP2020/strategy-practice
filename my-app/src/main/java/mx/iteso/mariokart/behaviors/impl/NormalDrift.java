@@ -7,7 +7,7 @@ public class NormalDrift implements Drift {
  * Return Normal drift.
  */
 @Override
-public final String drift() {
+public String drift() {
 return "Normal drift";
 }
 
